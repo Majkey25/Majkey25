@@ -18,6 +18,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph.svg">
 </picture>
+
 ###
 <div align="center">
   <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
