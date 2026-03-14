@@ -1,10 +1,5 @@
 <h1 align="center">Hi, I'm Matěj 👋</h1>
 
-###
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Majkey25.Majkey25&"  />
-</div>
 
 ###
 
