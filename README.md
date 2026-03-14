@@ -74,3 +74,7 @@
 </picture>
 
 ###
+
+<img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg" alt="Snake animation" />
+
+###
