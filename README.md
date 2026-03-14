@@ -2,12 +2,6 @@
 
 ###
 
-<p align="center">
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="300">
-</p>
-
-###
-
 <div align="center">
   <a href="https://www.linkedin.com/in/mat%C4%9Bj-tepl%C3%BD-64b46125b" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
