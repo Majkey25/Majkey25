@@ -8,7 +8,7 @@
 
 ###
 
-<p align="left">I build software, experiment with AI tools and automate things that should not be done manually.<br><br>I'm a passionate musician. I play drums, guitar, saxophone, and sing. Beyond music, I love creating things with lasting value... stuff that's meaningful and useful.<br><br>Currently interested in:<br>- Python and backend development<br>- LLM and RAG systems<br>- building useful tools<br><br>Outside of programming I play guitar, drums and collect vinyl records.</p>
+<p align="left">I build software, experiment with AI tools and automate things that should not be done manually.<br><br>I'm a passionate musician. I play drums, guitar, saxophone, and sing. I love music as such so I am a vinyl records collector Beyond music, I love creating things with lasting value... stuff that's meaningful and useful.<br><br>Currently interested in:<br>- Python and backend development<br>- LLM and RAG systems<br>- building useful tools<br><br></p>
 
 ###
 
