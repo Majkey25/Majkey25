@@ -88,21 +88,25 @@ We play music that reflects the same energy I bring into development raw, expres
 I collect vinyl records and love the whole experience around them sound, artwork, and the physical connection to music.
 It's a completely different world compared to streaming and it keeps me grounded.
 </p>
+<table>
+<tr>
 
-<div align="center">
-  <a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true" />
-  </a>
-</div>
+<td align="center">
+<a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
+  <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true" width="300"/>
+</a>
+</td>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Majkey25&theme=dracula" height="150" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Majkey25&theme=dracula&area=true" height="300" />
-</div>
+<td align="center">
+  <img src="https://streak-stats.demolab.com?user=Majkey25&theme=dracula" height="150"/>
+</td>
 
-<p align="center">
-Consistency beats motivation. I just keep building.
-</p>
+<td align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Majkey25&theme=dracula&area=true" height="150"/>
+</td>
+
+</tr>
+</table>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
