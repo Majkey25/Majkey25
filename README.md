@@ -70,11 +70,16 @@ I care about clean logic, simple solutions, and systems that don’t turn into c
 
 ## 🚀 Focus
 <p>
-Automation → removing manual work and making things faster<br>
-LLM & RAG → building AI systems that return actually useful answers<br>
-Backend → APIs, data handling, system structure<br>
-Problem solving → turning chaos into clean logic
+🎓 Education → currently studying at university and constantly building my knowledge in IT<br>
+🧠 Learning mindset → actively exploring new technologies, understanding how they work, and testing them in practice<br>
+⚡ Experimentation → trying new approaches and improving things that already exist<br>
+🔧 Implementation → turning ideas and concepts into working solutions<br>
+📈 Growth → focusing on continuous improvement and long-term progress
 </p>
+Automation → efficiency<br>
+LLM & RAG → useful AI<br>
+Backend → APIs & data<br>
+Problem solving → clean logic
 
 ## 🎵 Music & Life Outside Code
 <p>
