@@ -16,6 +16,7 @@
 <tr>
 <td width="60%">
 
+
 I’m really into IT, especially exploring new ways to solve problems, mainly around AI right now.  
 I like experimenting, trying different approaches, and finding better or smarter ways to do things.
 
@@ -39,7 +40,9 @@ I care about clean logic, simple solutions, and systems that don’t turn into c
 </tr>
 </table>
 
-<h3 align="center">Turning ideas into working systems ⚙️</h3>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&center=true&vCenter=true&width=700&height=45&duration=3000&color=58A6FF&multiline=false&lines=Exploring+new+ways+to+build;Learning+how+new+technologies+work;Turning+ideas+into+working+things;Improving+what+already+exists;Experimenting+with+AI+and+automation&color=58A6FF,FF6B6B,F1C40F,2ECC71,C77DFF" alt="Typing SVG" />
+</div>
 
 ## 💻 Tech Stack
 <p align="center">Tools I use to build real things:</p>
