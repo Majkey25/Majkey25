@@ -1,79 +1,98 @@
 <h1 align="center">Hi, I'm Majkey 👋</h1>
 
-###
-
 <div align="center">
   <a href="https://www.linkedin.com/in/matejteply/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25" />
   </a>
   <a href="https://www.instagram.com/_majkey_/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="25" />
   </a>
   <a href="https://discordapp.com/users/529408301193101352" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&color=7289DA&logoColor=white&style=for-the-badge" height="25" />
   </a>
 </div>
 
-###
+<h3 align="center">Turning ideas into working systems ⚙️</h3>
+<p>
+I’m really into IT, especially exploring new ways to solve problems, mainly around AI right now.
+I like experimenting, trying different approaches, and finding better or smarter ways to do things.
 
-<p align="left">I build software, experiment with AI tools, and automate things that should not be done manually.<br><br>I'm a passionate musician. I play drums, guitar, saxophone, and sing, and I also collect vinyl records. Beyond music, I enjoy creating things with lasting value... Stuff that's meaningful and useful.<br><br>Currently interested in:<br>- Python and backend development<br>- LLM and RAG systems<br>- building useful tools<br><br></p>
+I enjoy improving stuff that already works and building new things from scratch.
+For me, it's not just about making something run, but understanding how it works and making it better.
+</p>
 
-###
-<br clear="both">
+## 🧠 What I Do
+<p>
+I move between backend development, AI tools, and automation.
+I spend a lot of time learning, testing ideas, and figuring out how to connect things together in a practical way.<br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph.svg">
-</picture>
+I care about clean logic, simple solutions, and systems that don’t turn into chaos over time.
+</p>
 
-###
+## 💻 Tech Stack
+<p align="center">Tools I use to build real things:</p>
+
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
+  <img src="https://skillicons.dev/icons?i=py" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" alt="csharp logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="60" alt="cplusplus logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" alt="css logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" alt="typescript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" />
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/git/F05032" height="60" alt="git logo"  />
+  <img src="https://cdn.simpleicons.org/git/F05032" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" alt="java logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="60" alt="kotlin logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="60" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="60" alt="android logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="60" />
 </div>
 
-###
+## 🚀 Focus
+<p>
+Automation → removing manual work and making things faster<br>
+LLM & RAG → building AI systems that return actually useful answers<br>
+Backend → APIs, data handling, system structure<br>
+Problem solving → turning chaos into clean logic
+</p>
+
+## 🎵 Music & Life Outside Code
+<p>
+Music is a core part of who I am, not just a side hobby.<br><br>
+
+I play drums, guitar, saxophone, and sing. It shapes how I think about rhythm, structure, and creativity even in code.<br>
+
+I'm also part of a band → <a href="https://exhalace.cz" target="_blank"><b>Exhalace</b></a><br>
+We play music that reflects the same energy I bring into development raw, expressive, and intentional.<br>
+
+I collect vinyl records and love the whole experience around them sound, artwork, and the physical connection to music.
+It's a completely different world compared to streaming and it keeps me grounded.
+</p>
 
 <div align="center">
   <a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true" alt="Spotify recently played"  />
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true" />
   </a>
 </div>
 
-###
-
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Majkey25&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Majkey25&radius=16&theme=dracula&area=true&order=5" height="300" alt="activity-graph graph"  />
+  <img src="https://streak-stats.demolab.com?user=Majkey25&theme=dracula" height="150" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Majkey25&theme=dracula&area=true" height="300" />
 </div>
 
-
-###
+<p align="center">
+Consistency beats motivation. I just keep building.
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
   <img alt="Snake animation" src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
 </picture>
-
-###
