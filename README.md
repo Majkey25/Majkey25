@@ -1,5 +1,32 @@
 <h1 align="center">Hi, I'm Majkey 👋</h1>
 
+<table>
+<tr>
+<td width="60%">
+
+I’m really into IT, especially exploring new ways to solve problems, mainly around AI right now.  
+I like experimenting, trying different approaches, and finding better or smarter ways to do things.
+
+I enjoy improving stuff that already works and building new things from scratch.  
+For me, it's not just about making something run, but understanding how it works and making it better.
+
+## 🧠 What I Do
+
+I move between backend development, AI tools, and automation.  
+I spend a lot of time learning, testing ideas, and figuring out how to connect things together in a practical way.
+
+I care about clean logic, simple solutions, and systems that don’t turn into chaos over time.
+
+</td>
+
+<td width="40%" align="center">
+
+<img src="https://github.com/user-attachments/assets/f9c5e42b-e334-4915-b855-0cbe27709a14" width="300"/>
+
+</td>
+</tr>
+</table>
+
 <div align="center">
   <a href="https://www.linkedin.com/in/matejteply/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25" />
@@ -13,21 +40,6 @@
 </div>
 
 <h3 align="center">Turning ideas into working systems ⚙️</h3>
-<p>
-I’m really into IT, especially exploring new ways to solve problems, mainly around AI right now.
-I like experimenting, trying different approaches, and finding better or smarter ways to do things.
-
-I enjoy improving stuff that already works and building new things from scratch.
-For me, it's not just about making something run, but understanding how it works and making it better.
-</p>
-
-## 🧠 What I Do
-<p>
-I move between backend development, AI tools, and automation.
-I spend a lot of time learning, testing ideas, and figuring out how to connect things together in a practical way.<br>
-
-I care about clean logic, simple solutions, and systems that don’t turn into chaos over time.
-</p>
 
 ## 💻 Tech Stack
 <p align="center">Tools I use to build real things:</p>
