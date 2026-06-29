@@ -100,10 +100,7 @@ It's a completely different world compared to streaming and it keeps me grounded
 <tr>
 
 <td align="center">
-<a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
-  <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true" width="300"/>
-</a>
-</td>
+<a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy"> <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true&width=300" width="300" alt="Spotify recently played" /> </a> </td>
 
 <td align="center">
   <img src="https://streak-stats.demolab.com?user=Majkey25&theme=dracula" height="150"/>
