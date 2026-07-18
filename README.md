@@ -16,16 +16,15 @@
 <tr>
 <td width="60%">
 
-
-I’m really into IT, especially exploring new ways to solve problems, mainly around AI right now.  
+I’m really into IT, especially exploring new ways to solve problems, mainly around AI right now.
 I like experimenting, trying different approaches, and finding better or smarter ways to do things.
 
-I enjoy improving stuff that already works and building new things from scratch.  
+I enjoy improving stuff that already works and building new things from scratch.
 For me, it's not just about making something run, but understanding how it works and making it better.
 
 ## 🧠 What I Do
 
-I move between backend development, AI tools, and automation.  
+I move between backend development, AI tools, and automation.
 I spend a lot of time learning, testing ideas, and figuring out how to connect things together in a practical way.
 
 I care about clean logic, simple solutions, and systems that don’t turn into chaos over time.
@@ -45,6 +44,7 @@ I care about clean logic, simple solutions, and systems that don’t turn into c
 </div>
 
 ## 💻 Tech Stack
+
 <p align="center">Tools I use to build real things:</p>
 
 <div align="center">
@@ -72,6 +72,7 @@ I care about clean logic, simple solutions, and systems that don’t turn into c
 </div>
 
 ## 🚀 Focus
+
 <p>
 🎓 Education → currently studying at university and constantly building my knowledge in IT<br>
 🧠 Learning mindset → actively exploring new technologies, understanding how they work, and testing them in practice<br>
@@ -79,28 +80,39 @@ I care about clean logic, simple solutions, and systems that don’t turn into c
 🔧 Implementation → turning ideas and concepts into working solutions<br>
 📈 Growth → focusing on continuous improvement and long-term progress
 </p>
+
 Automation → efficiency<br>
 LLM & RAG → useful AI<br>
 Backend → APIs & data<br>
 Problem solving → clean logic
 
 ## 🎵 Music & Life Outside Code
+
 <p>
 Music is a core part of who I am, not just a side hobby.<br><br>
 
-I play drums, guitar, saxophone, and sing. It shapes how I think about rhythm, structure, and creativity even in code.<br>
+I play drums, guitar, saxophone, and sing. It shapes how I think about rhythm, structure, and creativity, even in code.<br><br>
 
-I'm also part of a band → <a href="https://exhalace.cz" target="_blank"><b>Exhalace</b></a><br>
-We play music that reflects the same energy I bring into development raw, expressive, and intentional.<br>
+I'm currently a member of <a href="https://www.facebook.com/wethegodsband/" target="_blank"><b>WETHEGODS</b></a>,
+with music also available on <a href="https://open.spotify.com/artist/0t37G5AusfBBeHTv85jxj9" target="_blank"><b>Spotify</b></a>.<br>
 
-I collect vinyl records and love the whole experience around them sound, artwork, and the physical connection to music.
-It's a completely different world compared to streaming and it keeps me grounded.
+I'm also part of <a href="https://exhalace.cz" target="_blank"><b>Exhalace</b></a>.<br><br>
+
+Both bands let me bring the same energy I have for building things into something louder, more creative, and more personal.<br><br>
+
+I collect vinyl records and love the whole experience around them: the sound, artwork, and physical connection to music.
+It's a completely different world compared to streaming, and it keeps me grounded.
+
 </p>
+
 <table>
 <tr>
 
 <td align="center">
-<a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy"> <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true&width=300" width="300" alt="Spotify recently played" /> </a> </td>
+  <a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true&width=300" width="300" alt="Spotify recently played" />
+  </a>
+</td>
 
 <td align="center">
   <img src="https://streak-stats.demolab.com?user=Majkey25&theme=dracula" height="150"/>
