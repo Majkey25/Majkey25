@@ -24,7 +24,7 @@ For me, it's not just about making something run, but understanding how it works
 
 ## 🧠 What I Do
 
-I move between backend development, AI tools, and automation.
+I move between full-stack development, AI tools, and automation.
 I spend a lot of time learning, testing ideas, and figuring out how to connect things together in a practical way.
 
 I care about clean logic, simple solutions, and systems that don’t turn into chaos over time.
@@ -83,7 +83,7 @@ I care about clean logic, simple solutions, and systems that don’t turn into c
 
 Automation → efficiency<br>
 LLM & RAG → useful AI<br>
-Backend → APIs & data<br>
+Full stack → interfaces, APIs & data<br>
 Problem solving → clean logic
 
 ## 🎵 Music & Life Outside Code
