@@ -129,4 +129,12 @@ It's a completely different world compared to streaming, and it keeps me grounde
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
   <img alt="Snake animation" src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
 </picture>
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/majkey)
+
+## ☕ Support Me
+
+If you like what I build and want to support my work:
+<a href="https://www.buymeacoffee.com/majkey"> 
+
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" alt="Buy Me a Coffee">
+
+</a>
