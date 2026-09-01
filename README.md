@@ -93,12 +93,12 @@ Music is a core part of who I am, not just a side hobby.<br><br>
 
 I play drums, guitar, saxophone, and sing. It shapes how I think about rhythm, structure, and creativity, even in code.<br><br>
 
-I'm currently a new member of <a href="https://www.facebook.com/wethegodsband/" target="_blank"><b>WETHEGODS</b></a>,
+I currently play in <a href="https://www.facebook.com/wethegodsband/" target="_blank"><b>WETHEGODS</b></a>,
 with music also available on <a href="https://open.spotify.com/artist/0t37G5AusfBBeHTv85jxj9" target="_blank"><b>Spotify</b></a>.<br>
 
-I'm also part of <a href="https://exhalace.cz" target="_blank"><b>Exhalace</b></a>.<br><br>
+I previously played in <a href="https://exhalace.cz" target="_blank"><b>Exhalace</b></a>.<br><br>
 
-Both bands let me bring the same energy I have for building things into something louder, more creative, and more personal.<br><br>
+Music lets me bring the same energy I have for building things into something louder, more creative, and more personal.<br><br>
 
 I collect vinyl records and love the whole experience around them: the sound, artwork, and physical connection to music.
 It's a completely different world compared to streaming, and it keeps me grounded.
