@@ -91,7 +91,7 @@ Problem solving → clean logic
 <p>
 Music is a core part of who I am, not just a side hobby.<br><br>
 
-I play drums, guitar, saxophone, and sing. It shapes how I think about rhythm, structure, and creativity, even in code.<br><br>
+I play drums, guitar, , bass, saxophone, and sing. It shapes how I think about rhythm, structure, and creativity, even in code.<br><br>
 
 I currently play in <a href="https://www.facebook.com/wethegodsband/" target="_blank"><b>WETHEGODS</b></a>,
 with music also available on <a href="https://open.spotify.com/artist/0t37G5AusfBBeHTv85jxj9" target="_blank"><b>Spotify</b></a>.<br>
