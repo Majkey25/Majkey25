@@ -2,13 +2,13 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/matejteply/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/_majkey_/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="25" alt="Instagram" />
   </a>
   <a href="https://discordapp.com/users/529408301193101352" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&color=7289DA&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&color=7289DA&logoColor=white&style=for-the-badge" height="25" alt="Discord" />
   </a>
 </div>
 
@@ -33,7 +33,7 @@ I care about clean logic, simple solutions, and systems that don’t turn into c
 
 <td width="40%" align="center">
 
-<img src="https://github.com/user-attachments/assets/f9c5e42b-e334-4915-b855-0cbe27709a14" width="300"/>
+<img src="https://github.com/user-attachments/assets/f9c5e42b-e334-4915-b855-0cbe27709a14" width="300" alt=""/>
 
 </td>
 </tr>
@@ -48,27 +48,27 @@ I care about clean logic, simple solutions, and systems that don’t turn into c
 <p align="center">Tools I use to build real things:</p>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/git/F05032" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="60" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="60" />
+  <img src="https://skillicons.dev/icons?i=py" height="60" alt="Python" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" alt="C#" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="60" alt="C++" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="HTML5" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" alt="CSS3" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="JavaScript" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" alt="TypeScript" />
+  <img width="12" alt="" />
+  <img src="https://cdn.simpleicons.org/git/F05032" height="60" alt="Git" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" alt="Java" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="60" alt="Kotlin" />
+  <img width="12" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="60" alt="Android" />
 </div>
 
 ## 🚀 Focus
@@ -115,11 +115,11 @@ It's a completely different world compared to streaming, and it keeps me grounde
 </td>
 
 <td align="center">
-  <img src="https://streak-stats.demolab.com?user=Majkey25&theme=dracula" height="150"/>
+  <img src="https://streak-stats.demolab.com?user=Majkey25&theme=dracula" height="150" alt="GitHub contribution streak for Majkey25"/>
 </td>
 
 <td align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Majkey25&theme=dracula&area=true" height="150"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Majkey25&theme=dracula&area=true" height="150" alt="GitHub contribution activity for Majkey25"/>
 </td>
 
 </tr>
