@@ -86,8 +86,8 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 
 ~~~mermaid
 flowchart LR
-    A["2021-2025<br/>Mechanical engineering<br/>SPŠ Zlín"] --> B["Jan 2023-Jun 2025<br/>Azure Programming<br/>Microsoft-supported STC"]
-    B --> C["2025-present<br/>AI / full-stack since Jun 2025<br/>Software Engineering at UTB Zlín"]
+    A["2021-2025<br/>Mechanical engineering studies<br/>SPŠ Zlín"] --> B["Jan 2023-Jun 2025<br/>Azure Programming<br/>Microsoft-supported<br/>Student Trainee Center"]
+    B --> C["2025-present<br/>AI / full-stack since Jun 2025<br/>Software Engineering studies<br/>UTB Zlín"]
     C --> D["May-Sep 2026<br/>AI safety and<br/>red-team evaluations"]
 ~~~
 
