@@ -78,22 +78,17 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 ~~~
 
 > [!TIP]
-> Define the problem, constraints, acceptance criteria, and failure cases first. Prefer the smallest architecture that solves the problem.
+> I start with the problem, constraints, and failure cases.
 >
-> Check important claims through tests, type checks, evals, and real application or device flows. Model output and retrieval can fail.
+> I prefer small, understandable systems and verify behavior with tests, type checks, evals, and real app or device testing.
 
 ## Career so far
 
 ~~~mermaid
-timeline
-    title Career and learning path
-    2021-2025 : Mechanical engineering studies
-              : SPŠ Zlín
-    Jan 2023-Jun 2025 : Azure Programming
-                     : Microsoft-supported Student Trainee Center
-    2025-present : AI and full-stack development since June 2025
-                 : Software Engineering studies at UTB Zlín
-    May-Sep 2026 : AI safety and red-team evaluations
+flowchart LR
+    A["2021-2025<br/>Mechanical engineering<br/>SPŠ Zlín"] --> B["Jan 2023-Jun 2025<br/>Azure Programming<br/>Microsoft-supported STC"]
+    B --> C["2025-present<br/>AI / full-stack since Jun 2025<br/>Software Engineering at UTB Zlín"]
+    C --> D["May-Sep 2026<br/>AI safety and<br/>red-team evaluations"]
 ~~~
 
 ---
