@@ -1,4 +1,5 @@
 <h1 align="center">Hi, I'm Majkey 👋</h1>
+<p align="center"><b>Matěj Teplý · AI & Backend Developer</b></p>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/matejteply/" target="_blank">
@@ -16,124 +17,77 @@
 <tr>
 <td width="60%">
 
-I’m really into IT, especially exploring new ways to solve problems, mainly around AI right now.
-I like experimenting, trying different approaches, and finding better or smarter ways to do things.
+I build LLM applications, backend services, automation, and developer tools.
+At **[OKsystem](https://github.com/OKsystem)**, I work on AI chatbots and RAG pipelines, from retrieval and context design to APIs, evaluation, and full-stack integration.
 
-I enjoy improving stuff that already works and building new things from scratch.
-For me, it's not just about making something run, but understanding how it works and making it better.
-
-## 🧠 What I Do
-
-I move between full-stack development, AI tools, and automation.
-I spend a lot of time learning, testing ideas, and figuring out how to connect things together in a practical way.
-
-I care about clean logic, simple solutions, and systems that don’t turn into chaos over time.
+I care about understanding failures, testing behavior, and keeping software maintainable after the prototype.
+Alongside work, I study **Software Engineering at Tomas Bata University in Zlín** and build open-source projects.
 
 </td>
-
 <td width="40%" align="center">
 
-<img src="https://github.com/user-attachments/assets/f9c5e42b-e334-4915-b855-0cbe27709a14" width="300" alt=""/>
+<img src="https://github.com/user-attachments/assets/f9c5e42b-e334-4915-b855-0cbe27709a14" width="300" alt="" />
 
 </td>
 </tr>
 </table>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&center=true&vCenter=true&width=700&height=45&duration=3000&color=58A6FF&multiline=false&lines=Exploring+new+ways+to+build;Learning+how+new+technologies+work;Turning+ideas+into+working+things;Improving+what+already+exists;Experimenting+with+AI+and+automation&color=2ECC71" alt="Typing SVG" />
-</div>
+## What I work on
 
-## 💻 Tech Stack
+- **AI applications:** LLM integration, RAG, retrieval, agent workflows, and context design.
+- **Backend and tooling:** Python services, REST APIs, databases, automation, and GitHub workflows.
+- **Practical applications:** React and TypeScript interfaces, Kotlin and Jetpack Compose Android apps.
 
-<p align="center">Tools I use to build real things:</p>
+## Selected work
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="Python" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" alt="C#" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="60" alt="C++" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="HTML5" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" alt="CSS3" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="JavaScript" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" alt="TypeScript" />
-  <img width="12" alt="" />
-  <img src="https://cdn.simpleicons.org/git/F05032" height="60" alt="Git" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" alt="Java" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="60" alt="Kotlin" />
-  <img width="12" alt="" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="60" alt="Android" />
-</div>
+| Project | What it does |
+| --- | --- |
+| [CzechCore](https://github.com/Majkey25/CzechCore) | Offline Czech proofreading and local rewrite research, with corpus evaluation, precise edit spans, and protected-text safeguards. |
+| [Prompt Engineering Skill](https://github.com/Majkey25/prompt-engineering-skill) | Reusable prompt and agent contracts with explicit context, constraints, verification, and evaluation criteria. |
+| [Project Guard](https://github.com/Majkey25/Project-Guard) | Audits GitHub Issues, PRs, and Project V2 fields. Optional AI assistance previews changes before applying them. |
+| [SeliaScan / ScanIt](https://github.com/Majkey25/ScanIt) | Android document scanner with on-device OCR, local document operations, and PDF/image export. |
 
-## 🚀 Focus
+## How I build
 
-<p>
-🎓 Education → currently studying at university and constantly building my knowledge in IT<br>
-🧠 Learning mindset → actively exploring new technologies, understanding how they work, and testing them in practice<br>
-⚡ Experimentation → trying new approaches and improving things that already exist<br>
-🔧 Implementation → turning ideas and concepts into working solutions<br>
-📈 Growth → focusing on continuous improvement and long-term progress
+- Start with the problem, constraints, and failure cases.
+- Use tests, type checks, evals, and real application or device flows to check important claims.
+- Prefer small, understandable systems. Treat model output and retrieval as components that can fail.
+
+## Core tools
+
+**AI & backend:** Python · LLM APIs · RAG · REST APIs · databases<br>
+**Applications:** TypeScript · React · Kotlin · Jetpack Compose<br>
+**Verification:** GitHub Actions · pytest · Playwright · CodeQL
+
+## Outside software
+
+I play drums, guitar, bass, and saxophone, and I sing. I currently play with **[WETHEGODS](https://www.facebook.com/wethegodsband/)**, previously with **[Exhalace](https://exhalace.cz)**, and collect vinyl records.
+
+[WETHEGODS on Spotify](https://open.spotify.com/artist/0t37G5AusfBBeHTv85jxj9)
+
+<a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
+  <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/spotify.svg" width="300" alt="Spotify recently played" />
+</a>
+
+<details>
+<summary>GitHub activity</summary>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/streak.svg" height="150" alt="GitHub contribution streak for Majkey25" />
 </p>
 
-Automation → efficiency<br>
-LLM & RAG → useful AI<br>
-Full stack → interfaces, APIs & data<br>
-Problem solving → clean logic
-
-## 🎵 Music & Life Outside Code
-
-<p>
-Music is a core part of who I am, not just a side hobby.<br><br>
-
-I play drums, guitar, , bass, saxophone, and sing. It shapes how I think about rhythm, structure, and creativity, even in code.<br><br>
-
-I currently play in <a href="https://www.facebook.com/wethegodsband/" target="_blank"><b>WETHEGODS</b></a>,
-with music also available on <a href="https://open.spotify.com/artist/0t37G5AusfBBeHTv85jxj9" target="_blank"><b>Spotify</b></a>.<br>
-
-I previously played in <a href="https://exhalace.cz" target="_blank"><b>Exhalace</b></a>.<br><br>
-
-Music lets me bring the same energy I have for building things into something louder, more creative, and more personal.<br><br>
-
-I collect vinyl records and love the whole experience around them: the sound, artwork, and physical connection to music.
-It's a completely different world compared to streaming, and it keeps me grounded.
-
-</p>
-
-<table>
-<tr>
-
-<td align="center">
-  <a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=true&width=300" width="300" alt="Spotify recently played" />
-  </a>
-</td>
-
-<td align="center">
-  <img src="https://streak-stats.demolab.com?user=Majkey25&theme=dracula" height="150" alt="GitHub contribution streak for Majkey25"/>
-</td>
-
-<td align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Majkey25&theme=dracula&area=true" height="150" alt="GitHub contribution activity for Majkey25"/>
-</td>
-
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph-dark.svg">
+  <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph.svg" alt="GitHub contribution activity for Majkey25" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
   <img alt="Snake animation" src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
 </picture>
 
-## ☕ Support Me
+</details>
 
-If you like what I build and want to support my work:
-<br>
-<a href="https://www.buymeacoffee.com/majkey">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" alt="Buy Me a Coffee">
-</a>
+<sub>Widgets refresh every 12 hours. If a provider is unavailable, the previous valid image stays visible.</sub>
+
+[Portfolio](https://majkey25.github.io/init/) · [Support my work](https://www.buymeacoffee.com/majkey)
