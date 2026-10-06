@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="76" viewBox="0 0 800 76"
+     role="img" aria-labelledby="title">
+  <title id="title">Matěj "Majkey" Teplý</title>
+  <defs>
+    <linearGradient id="accent-dark" x1="0" x2="1">
+      <stop offset="0" stop-color="#58a6ff" />
+      <stop offset="0.5" stop-color="#bc8cff" />
+      <stop offset="1" stop-color="#f778ba" />
+    </linearGradient>
+    <linearGradient id="accent-light" x1="0" x2="1">
+      <stop offset="0" stop-color="#0969da" />
+      <stop offset="0.5" stop-color="#8250df" />
+      <stop offset="1" stop-color="#bf3989" />
+    </linearGradient>
+  </defs>
+  <style>
+    .name { fill: #e6edf3; }
+    .accent { fill: url(#accent-dark); }
+    @media (prefers-color-scheme: light) {
+      .name { fill: #1f2328; } .accent { fill: url(#accent-light); }
+    }
+  </style>
+  <text class="name" x="400" y="54" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700"
+        letter-spacing="-1">Matěj <tspan class="accent">"Majkey"</tspan> Teplý</text>
+</svg>
