@@ -1,5 +1,7 @@
-<h1 align="center">Hi, I'm Majkey 👋</h1>
-<p align="center"><b>Matěj Teplý · Full-Stack AI/ML Engineer &amp; Backend Developer</b></p>
+<h1 align="center">
+  <img src="assets/header.svg" width="800" alt="Matěj &quot;Majkey&quot; Teplý" />
+</h1>
+<p align="center"><b>Full-Stack AI/ML Engineer &amp; Backend Developer</b></p>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/matejteply/" target="_blank">
@@ -21,9 +23,9 @@ I'm a **Full-Stack AI/ML Engineer & Backend Developer**. I build LLM application
 
 At **[OKsystem a.s.](https://www.oksystem.com/en)**, I develop and evaluate AI chatbots and RAG pipelines. My work spans retrieval, context and prompt design, model integration, REST APIs, databases, and frontend implementation.
 
-I also research and prototype AI tools with the innovation team, testing their practical fit and integration trade-offs. I'm interested in how these systems find relevant information, handle missing context, and behave when a model or service fails.
-
 Outside work, I build **developer tools, Android applications, and websites**. My projects cover project and release tracking, prompt and agent instructions, document scanning, offline music tools, weather data, and the WeTheGods website.
+
+In my own projects, I research and prototype AI tools, testing their practical fit and integration trade-offs. I'm interested in how these systems find relevant information, handle missing context, and behave when a model or service fails.
 
 I'm **eager to learn new things**, deepen my understanding of AI/ML, and test new tools through practical projects. I like comparing approaches and understanding why they succeed or fail.
 
@@ -38,29 +40,30 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 </tr>
 </table>
 
-<p align="center">
+<div align="center">
   <img src="assets/typing.svg" width="800" alt="LLM applications and agent workflows; Python backends and APIs; retrieval and evaluation; React, TypeScript, Kotlin, and Android" />
-</p>
+</div>
 
-## Practical AI work at OKsystem
+## What I build
 
-My professional AI work centers on several chatbot and RAG implementations. I contribute across backend and frontend development, retrieval, model and service integration, and evaluation.
+I build AI applications, backend services, and the interfaces that bring them together. My work includes chatbots, RAG pipelines, retrieval, model integration, and evaluation.
 
 - **Knowledge-backed chatbots:** Build retrieval and context flows that connect language models to relevant information from their knowledge bases.
 - **Full-stack integration:** Connect LLM services to Python backends, REST APIs, databases, automation, and user-facing interfaces.
 - **Evaluation and debugging:** Test answers and retrieval behavior, investigate failures, and improve prompts, context, performance, and code quality.
-- **AI prototypes:** Research new tools with the innovation team, compare approaches, and test their practical fit and integration trade-offs before adoption.
 
 ## Selected work
 
 | Project | What it does |
 | --- | --- |
-| [project-board-showcase](https://github.com/Majkey25/project-board-showcase) | Project and release board separating workflow phases from deployed versions. Public showcase; application source is private. |
-| [ScanIt](https://github.com/Majkey25/ScanIt) | Android document scanner with on-device OCR, local document operations, and PDF/image export. |
-| [TuneItAll](https://github.com/Majkey25/TuneItAll) | Offline Android tuner for guitar, bass, ukulele, and chromatic tuning. |
-| [prompt-engineering-skill](https://github.com/Majkey25/prompt-engineering-skill) | Reusable prompt and agent instructions with explicit constraints, verification, and evaluation criteria. |
-| [Selia-Weather](https://github.com/Majkey25/Selia-Weather) | Czech weather app with provider forecasts, ČHMÚ radar, and configurable Android widgets. |
-| [WeTheGods](https://github.com/Majkey25/WeTheGods) | Band website built with Astro and published through GitHub Pages. |
+| **[project-board-showcase](https://github.com/Majkey25/project-board-showcase)** | Project and release board separating workflow phases from deployed versions. Public showcase; application source is private. |
+| **[ScanIt](https://github.com/Majkey25/ScanIt)** | Android document scanner with on-device OCR, local document operations, and PDF/image export. |
+| **[TuneItAll](https://github.com/Majkey25/TuneItAll)** | Offline Android tuner for guitar, bass, ukulele, and chromatic tuning. |
+| **[prompt-engineering-skill](https://github.com/Majkey25/prompt-engineering-skill)** | Reusable prompt and agent instructions with explicit constraints, verification, and evaluation criteria. |
+| **[Selia-Weather](https://github.com/Majkey25/Selia-Weather)** | Czech weather app with provider forecasts, ČHMÚ radar, and configurable Android widgets. |
+| **[WeTheGods](https://github.com/Majkey25/WeTheGods)** | Band website built with Astro and published through GitHub Pages. |
+
+<p align="right"><a href="https://github.com/Majkey25?tab=repositories"><b>And much more...</b></a></p>
 
 ## How I build
 
