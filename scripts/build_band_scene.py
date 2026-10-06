@@ -374,7 +374,6 @@ def amplifiers() -> list[Triangle]:
 
 def build_scene(logo: Path) -> list[Triangle]:
     mesh = box((0, 0, -0.2), (15, 8, 0.4)) + box((0, -1.8, 0.12), (5.4, 3.2, 0.24))
-    mesh += box((0, -3.6, 4.45), (7, 0.16, 3.5))
     scale_logo = 3 / 1504
     contours = svg_contours(logo)
     if not contours:
@@ -383,7 +382,7 @@ def build_scene(logo: Path) -> list[Triangle]:
         points = [((x - 498) * scale_logo, (y - 498) * scale_logo) for x, y in contour]
         mesh += prism(
             points,
-            0.13,
+            0.35,
             (-1040 * scale_logo / 2, -3.48, 6.0),
             (1, 0, 0),
             (0, 0, -1),
