@@ -46,7 +46,8 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 
 ## What I build
 
-I build AI applications, backend services, and the interfaces that bring them together. My work includes chatbots, RAG pipelines, retrieval, model integration, and evaluation.
+> [!NOTE]
+> I build AI applications, backend services, and the interfaces that bring them together. My work includes chatbots, RAG pipelines, retrieval, model integration, and evaluation.
 
 - **Knowledge-backed chatbots:** Build retrieval and context flows that connect language models to relevant information from their knowledge bases.
 - **Full-stack integration:** Connect LLM services to Python backends, REST APIs, databases, automation, and user-facing interfaces.
@@ -67,11 +68,35 @@ I build AI applications, backend services, and the interfaces that bring them to
 
 ## How I build
 
-- Start with the problem, constraints, and failure cases.
-- Use tests, type checks, evals, and real application or device flows to check important claims.
-- Prefer small, understandable systems. Treat model output and retrieval as components that can fail.
+> AI does not remove the engineer. It changes where engineering effort goes.
+>
+> From [my post on modern software engineering with AI agents](https://lnkd.in/p/duaqwHh9).
 
-I wrote about this approach in my post on [modern software engineering with AI agents](https://lnkd.in/p/duaqwHh9): context, constraints, and verification around autonomous tools.
+~~~diff
+- Scope: implementation
++ Scope: implementation + verification
+~~~
+
+> [!TIP]
+> Define the problem, constraints, acceptance criteria, and failure cases first. Prefer the smallest architecture that solves the problem.
+>
+> Check important claims through tests, type checks, evals, and real application or device flows. Model output and retrieval can fail.
+
+## Career so far
+
+~~~mermaid
+timeline
+    title Career and learning path
+    2021-2025 : Mechanical engineering studies
+              : SPŠ Zlín
+    Jan 2023-Jun 2025 : Azure Programming
+                     : Microsoft-supported Student Trainee Center
+    2025-present : AI and full-stack development since June 2025
+                 : Software Engineering studies at UTB Zlín
+    May-Sep 2026 : AI safety and red-team evaluations
+~~~
+
+---
 
 ## Outside software
 
@@ -82,6 +107,132 @@ I play drums, guitar, bass, and saxophone, and I sing. I currently play with **[
 <a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
   <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/spotify.svg" width="300" alt="Recently played Spotify tracks" />
 </a>
+
+<details>
+<summary><b>Explore a 3D guitar-pick sketch</b></summary>
+
+A small music-inspired 3D sketch, connecting my mechanical-engineering foundation with the instruments I play.
+
+~~~stl
+solid guitar_pick
+  facet normal 0 -0 -1
+    outer loop
+      vertex -11 10 0
+      vertex 0 -17 0
+      vertex -14 6 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -11 10 1.2
+      vertex -14 6 1.2
+      vertex 0 -17 1.2
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -11 10 0
+      vertex 14 6 0
+      vertex 0 -17 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex -11 10 1.2
+      vertex 0 -17 1.2
+      vertex 14 6 1.2
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex -11 10 0
+      vertex 11 10 0
+      vertex 14 6 0
+    endloop
+  endfacet
+  facet normal -0 0 1
+    outer loop
+      vertex -11 10 1.2
+      vertex 14 6 1.2
+      vertex 11 10 1.2
+    endloop
+  endfacet
+  facet normal -0.8 0.6 0
+    outer loop
+      vertex -11 10 0
+      vertex -14 6 0
+      vertex -14 6 1.2
+    endloop
+  endfacet
+  facet normal -0.8 0.6 0
+    outer loop
+      vertex -11 10 0
+      vertex -14 6 1.2
+      vertex -11 10 1.2
+    endloop
+  endfacet
+  facet normal -0.85419856 -0.51994695 0
+    outer loop
+      vertex -14 6 0
+      vertex 0 -17 0
+      vertex 0 -17 1.2
+    endloop
+  endfacet
+  facet normal -0.85419856 -0.51994695 0
+    outer loop
+      vertex -14 6 0
+      vertex 0 -17 1.2
+      vertex -14 6 1.2
+    endloop
+  endfacet
+  facet normal 0.85419856 -0.51994695 0
+    outer loop
+      vertex 0 -17 0
+      vertex 14 6 0
+      vertex 14 6 1.2
+    endloop
+  endfacet
+  facet normal 0.85419856 -0.51994695 0
+    outer loop
+      vertex 0 -17 0
+      vertex 14 6 1.2
+      vertex 0 -17 1.2
+    endloop
+  endfacet
+  facet normal 0.8 0.6 0
+    outer loop
+      vertex 14 6 0
+      vertex 11 10 0
+      vertex 11 10 1.2
+    endloop
+  endfacet
+  facet normal 0.8 0.6 -0
+    outer loop
+      vertex 14 6 0
+      vertex 11 10 1.2
+      vertex 14 6 1.2
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 11 10 0
+      vertex -11 10 0
+      vertex -11 10 1.2
+    endloop
+  endfacet
+  facet normal 0 1 -0
+    outer loop
+      vertex 11 10 0
+      vertex -11 10 1.2
+      vertex 11 10 1.2
+    endloop
+  endfacet
+endsolid guitar_pick
+~~~
+
+[Open or save the STL model](assets/guitar-pick.stl)
+
+</details>
 
 ## GitHub activity
 
