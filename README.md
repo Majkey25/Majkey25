@@ -19,13 +19,13 @@
 
 I'm a **Full-Stack AI/ML Engineer & Backend Developer**. I build LLM applications, Python services, automation, and interfaces that connect them into usable products.
 
-At **[OKsystem](https://github.com/OKsystem)**, I develop and evaluate AI chatbots and RAG pipelines. My work spans retrieval, context and prompt design, model integration, REST APIs, databases, and frontend implementation.
+At **[OKsystem a.s.](https://www.oksystem.com/en)**, I develop and evaluate AI chatbots and RAG pipelines. My work spans retrieval, context and prompt design, model integration, REST APIs, databases, and frontend implementation.
 
 I also research and prototype AI tools with the innovation team, testing their practical fit and integration trade-offs. I'm interested in how these systems find relevant information, handle missing context, and behave when a model or service fails.
 
-Outside work, I build **open-source developer tools and Android applications**. My projects cover GitHub workflow auditing, prompt and agent contracts, offline Czech proofreading, document scanning, and audio tools.
+Outside work, I build **developer tools, Android applications, and websites**. My projects cover project and release tracking, prompt and agent instructions, document scanning, offline music tools, weather data, and the WeTheGods website.
 
-I prefer small architectures with clear constraints. I check behavior through tests, type checks, evals, browser workflows, and real devices when relevant. Beyond a working prototype, I look at failure cases, performance, and maintainability.
+I'm **eager to learn new things**, deepen my understanding of AI/ML, and test new tools through practical projects. I like comparing approaches and understanding why they succeed or fail.
 
 Alongside development, I study **Software Engineering at Tomas Bata University in Zlín**, combining the degree with professional work and independent projects.
 
@@ -42,32 +42,31 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
   <img src="assets/typing.svg" width="800" alt="LLM applications and agent workflows; Python backends and APIs; retrieval and evaluation; React, TypeScript, Kotlin, and Android" />
 </p>
 
-## What I work on
+## Practical AI work at OKsystem
 
-- **AI applications:** LLM integration, RAG, retrieval, agent workflows, and context design.
-- **Backend and tooling:** Python services, REST APIs, databases, automation, and GitHub workflows.
-- **Practical applications:** React and TypeScript interfaces, Kotlin and Jetpack Compose Android apps.
+My professional AI work centers on several chatbot and RAG implementations. I contribute across backend and frontend development, retrieval, model and service integration, and evaluation.
+
+- **Knowledge-backed chatbots:** Build retrieval and context flows that connect language models to relevant information from their knowledge bases.
+- **Full-stack integration:** Connect LLM services to Python backends, REST APIs, databases, automation, and user-facing interfaces.
+- **Evaluation and debugging:** Test answers and retrieval behavior, investigate failures, and improve prompts, context, performance, and code quality.
+- **AI prototypes:** Research new tools with the innovation team, compare approaches, and test their practical fit and integration trade-offs before adoption.
 
 ## Selected work
 
 | Project | What it does |
 | --- | --- |
-| [CzechCore](https://github.com/Majkey25/CzechCore) | Offline Czech proofreading and local rewrite research, with corpus evaluation, precise edit spans, and protected-text safeguards. |
-| [Prompt Engineering Skill](https://github.com/Majkey25/prompt-engineering-skill) | Reusable prompt and agent contracts with explicit context, constraints, verification, and evaluation criteria. |
-| [Project Guard](https://github.com/Majkey25/Project-Guard) | Audits GitHub Issues, PRs, and Project V2 fields. Optional AI assistance previews changes before applying them. |
-| [SeliaScan / ScanIt](https://github.com/Majkey25/ScanIt) | Android document scanner with on-device OCR, local document operations, and PDF/image export. |
+| [project-board-showcase](https://github.com/Majkey25/project-board-showcase) | Project and release board separating workflow phases from deployed versions. Public showcase; application source is private. |
+| [ScanIt](https://github.com/Majkey25/ScanIt) | Android document scanner with on-device OCR, local document operations, and PDF/image export. |
+| [TuneItAll](https://github.com/Majkey25/TuneItAll) | Offline Android tuner for guitar, bass, ukulele, and chromatic tuning. |
+| [prompt-engineering-skill](https://github.com/Majkey25/prompt-engineering-skill) | Reusable prompt and agent instructions with explicit constraints, verification, and evaluation criteria. |
+| [Selia-Weather](https://github.com/Majkey25/Selia-Weather) | Czech weather app with provider forecasts, ČHMÚ radar, and configurable Android widgets. |
+| [WeTheGods](https://github.com/Majkey25/WeTheGods) | Band website built with Astro and published through GitHub Pages. |
 
 ## How I build
 
 - Start with the problem, constraints, and failure cases.
 - Use tests, type checks, evals, and real application or device flows to check important claims.
 - Prefer small, understandable systems. Treat model output and retrieval as components that can fail.
-
-## Core tools
-
-**AI & backend:** Python · LLM APIs · RAG · REST APIs · databases<br>
-**Applications:** TypeScript · React · Kotlin · Jetpack Compose<br>
-**Verification:** GitHub Actions · pytest · Playwright · CodeQL
 
 ## Outside software
 
