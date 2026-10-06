@@ -21,9 +21,9 @@ I'm a **Full-Stack AI/ML Engineer & Backend Developer**. I build LLM application
 
 At **[OKsystem a.s.](https://www.oksystem.com/en)**, I develop and evaluate AI chatbots and RAG pipelines. My work spans retrieval, context and prompt design, model integration, REST APIs, databases, and frontend implementation.
 
-I also research and prototype AI tools with the innovation team, testing their practical fit and integration trade-offs. I'm interested in how these systems find relevant information, handle missing context, and behave when a model or service fails.
-
 Outside work, I build **developer tools, Android applications, and websites**. My projects cover project and release tracking, prompt and agent instructions, document scanning, offline music tools, weather data, and the WeTheGods website.
+
+In my own projects, I research and prototype AI tools, testing their practical fit and integration trade-offs. I'm interested in how these systems find relevant information, handle missing context, and behave when a model or service fails.
 
 I'm **eager to learn new things**, deepen my understanding of AI/ML, and test new tools through practical projects. I like comparing approaches and understanding why they succeed or fail.
 
@@ -49,7 +49,6 @@ My professional AI work centers on several chatbot and RAG implementations. I co
 - **Knowledge-backed chatbots:** Build retrieval and context flows that connect language models to relevant information from their knowledge bases.
 - **Full-stack integration:** Connect LLM services to Python backends, REST APIs, databases, automation, and user-facing interfaces.
 - **Evaluation and debugging:** Test answers and retrieval behavior, investigate failures, and improve prompts, context, performance, and code quality.
-- **AI prototypes:** Research new tools with the innovation team, compare approaches, and test their practical fit and integration trade-offs before adoption.
 
 ## Selected work
 
