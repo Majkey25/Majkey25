@@ -1,0 +1,39 @@
+<!-- Typing paths adapted from https://github.com/DenverCoder1/readme-typing-svg/ -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="800" height="60" viewBox="0 0 800 60" role="img" aria-labelledby="title">
+  <title id="title">AI applications, backend services, retrieval evaluation, and full-stack development</title>
+  <style>
+    text { font: 600 24px monospace; dominant-baseline: middle; text-anchor: middle; }
+    .static { display: none; }
+    @media (prefers-color-scheme: light) {
+      .blue { fill: #0969da; } .green { fill: #1a7f37; }
+      .purple { fill: #8250df; } .pink { fill: #bf3989; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .animated { display: none; } .static { display: block; }
+    }
+  </style>
+  <g class="animated">
+    <path id="path0">
+      <animate id="d0" attributeName="d" begin="0s;d3.end" dur="4.8s" fill="remove"
+        values="m0,30 h0;m0,30 h800;m0,30 h800;m0,30 h0" keyTimes="0;0.53333333333333;0.86666666666667;1" />
+    </path>
+    <text class="blue" fill="#58a6ff" x="50%"><textPath xlink:href="#path0">LLM applications, RAG, and agent workflows</textPath></text>
+    <path id="path1">
+      <animate id="d1" attributeName="d" begin="d0.end" dur="4.8s" fill="remove"
+        values="m0,30 h0;m0,30 h800;m0,30 h800;m0,30 h0" keyTimes="0;0.53333333333333;0.86666666666667;1" />
+    </path>
+    <text class="green" fill="#3fb950" x="50%"><textPath xlink:href="#path1">Python backends, APIs, and full-stack integration</textPath></text>
+    <path id="path2">
+      <animate id="d2" attributeName="d" begin="d1.end" dur="4.8s" fill="remove"
+        values="m0,30 h0;m0,30 h800;m0,30 h800;m0,30 h0" keyTimes="0;0.53333333333333;0.86666666666667;1" />
+    </path>
+    <text class="purple" fill="#bc8cff" x="50%"><textPath xlink:href="#path2">Retrieval, context design, and evaluation</textPath></text>
+    <path id="path3">
+      <animate id="d3" attributeName="d" begin="d2.end" dur="4.8s" fill="remove"
+        values="m0,30 h0;m0,30 h800;m0,30 h800;m0,30 h0" keyTimes="0;0.53333333333333;0.86666666666667;1" />
+    </path>
+    <text class="pink" fill="#f778ba" x="50%"><textPath xlink:href="#path3">React and TypeScript + Kotlin and Android</textPath></text>
+  </g>
+  <text class="static blue" fill="#58a6ff" x="50%" y="30">LLM applications, RAG, and agent workflows</text>
+</svg>

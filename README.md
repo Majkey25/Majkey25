@@ -1,27 +1,33 @@
 <h1 align="center">Hi, I'm Majkey 👋</h1>
-<p align="center"><b>Matěj Teplý · AI & Backend Developer</b></p>
+<p align="center"><b>Matěj Teplý · Full-Stack AI/ML Engineer &amp; Backend Developer</b></p>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/matejteply/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" height="25" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/_majkey_/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&color=E4405F&logoColor=white&style=for-the-badge" height="25" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge" height="25" alt="Instagram" />
   </a>
   <a href="https://discordapp.com/users/529408301193101352" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&color=7289DA&logoColor=white&style=for-the-badge" height="25" alt="Discord" />
+    <img src="https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white&style=for-the-badge" height="25" alt="Discord" />
   </a>
 </div>
 
 <table>
 <tr>
-<td width="60%">
+<td width="60%" valign="top">
 
-I build LLM applications, backend services, automation, and developer tools.
-At **[OKsystem](https://github.com/OKsystem)**, I work on AI chatbots and RAG pipelines, from retrieval and context design to APIs, evaluation, and full-stack integration.
+I'm a **Full-Stack AI/ML Engineer & Backend Developer**. I build LLM applications, Python services, automation, and interfaces that connect them into usable products.
 
-I care about understanding failures, testing behavior, and keeping software maintainable after the prototype.
-Alongside work, I study **Software Engineering at Tomas Bata University in Zlín** and build open-source projects.
+At **[OKsystem](https://github.com/OKsystem)**, I develop and evaluate AI chatbots and RAG pipelines. My work spans retrieval, context and prompt design, model integration, REST APIs, databases, and frontend implementation.
+
+I also research and prototype AI tools with the innovation team, testing their practical fit and integration trade-offs. I'm interested in how these systems find relevant information, handle missing context, and behave when a model or service fails.
+
+Outside work, I build **open-source developer tools and Android applications**. My projects cover GitHub workflow auditing, prompt and agent contracts, offline Czech proofreading, document scanning, and audio tools.
+
+I prefer small architectures with clear constraints. I check behavior through tests, type checks, evals, browser workflows, and real devices when relevant. Beyond a working prototype, I look at failure cases, performance, and maintainability.
+
+Alongside development, I study **Software Engineering at Tomas Bata University in Zlín**, combining the degree with professional work and independent projects.
 
 </td>
 <td width="40%" align="center">
@@ -31,6 +37,10 @@ Alongside work, I study **Software Engineering at Tomas Bata University in Zlín
 </td>
 </tr>
 </table>
+
+<p align="center">
+  <img src="assets/typing.svg" width="800" alt="LLM applications and agent workflows; Python backends and APIs; retrieval and evaluation; React, TypeScript, Kotlin, and Android" />
+</p>
 
 ## What I work on
 
@@ -65,29 +75,11 @@ I play drums, guitar, bass, and saxophone, and I sing. I currently play with **[
 
 [WETHEGODS on Spotify](https://open.spotify.com/artist/0t37G5AusfBBeHTv85jxj9)
 
-<a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
-  <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/spotify.svg" width="300" alt="Spotify recently played" />
-</a>
-
-<details>
-<summary>GitHub activity</summary>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/streak.svg" height="150" alt="GitHub contribution streak for Majkey25" />
-</p>
+## GitHub activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph-dark.svg">
   <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/pacman-contribution-graph.svg" alt="GitHub contribution activity for Majkey25" />
 </picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/snake.svg">
-</picture>
-
-</details>
-
-<sub>Widgets refresh every 12 hours. If a provider is unavailable, the previous valid image stays visible.</sub>
 
 [Portfolio](https://majkey25.github.io/init/) · [Support my work](https://www.buymeacoffee.com/majkey)
