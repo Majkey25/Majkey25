@@ -71,11 +71,17 @@ I build AI applications, backend services, and the interfaces that bring them to
 - Use tests, type checks, evals, and real application or device flows to check important claims.
 - Prefer small, understandable systems. Treat model output and retrieval as components that can fail.
 
+I wrote about this approach in my post on [modern software engineering with AI agents](https://lnkd.in/p/duaqwHh9): context, constraints, and verification around autonomous tools.
+
 ## Outside software
 
 I play drums, guitar, bass, and saxophone, and I sing. I currently play with **[WETHEGODS](https://www.facebook.com/wethegodsband/)**, previously with **[Exhalace](https://exhalace.cz)**, and collect vinyl records.
 
 [WETHEGODS on Spotify](https://open.spotify.com/artist/0t37G5AusfBBeHTv85jxj9)
+
+<a href="https://open.spotify.com/user/an3l6poe03o6g6htrdrs0hgjy">
+  <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/spotify.svg" width="300" alt="Recently played Spotify tracks" />
+</a>
 
 ## GitHub activity
 
