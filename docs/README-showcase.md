@@ -870,4 +870,3 @@ GitHub sanitizes rendered HTML. Arbitrary scripts, inline styles, and custom cla
 - Upload a real image, GIF, or video before referencing that asset. A placeholder filename cannot produce a preview.
 
 [^evidence]: Footnote demo. In real project documentation, put the relevant source, benchmark, or validation link here.
-
