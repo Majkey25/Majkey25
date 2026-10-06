@@ -391,13 +391,13 @@ def build_scene(logo: Path) -> list[Triangle]:
     mesh += guitar(-3.3, 0.8, 0.70)
     mesh += guitar(3.3, 0.8, 0.70, bass=True)
     mesh += cylinder((0, 1.7, 0), (0, 1.7, 2.20), 0.035, 4)
-    mesh += cylinder((0, 1.7, 2.20), (0, 2.0, 2.36), 0.028, 4)
-    mesh += cylinder((0, 2.0, 2.36), (0, 2.22, 2.39), 0.055, 6)
-    mesh += cylinder((0, 2.22, 2.39), (0, 2.30, 2.40), 0.08, 8)
+    mesh += cylinder((0, 1.7, 2.20), (0, 1.4, 2.36), 0.028, 4)
+    mesh += cylinder((0, 1.4, 2.36), (0, 1.18, 2.39), 0.055, 6)
+    mesh += cylinder((0, 1.18, 2.39), (0, 1.10, 2.40), 0.08, 8)
     for angle in (0, 2 * pi / 3, 4 * pi / 3):
         mesh += cylinder(
             (0, 1.7, 0.15),
-            (0.45 * cos(angle), 1.7 + 0.45 * sin(angle), 0.03),
+            (0.45 * cos(angle + pi), 1.7 + 0.45 * sin(angle + pi), 0.03),
             0.025,
             3,
         )
@@ -462,7 +462,7 @@ def build_scene(logo: Path) -> list[Triangle]:
         mesh += cylinder((x, -3.4, 6.3), (x + 0.3, -3.4, 5.9), 0.025, 3)
         mesh += cylinder((x, -3.0, 5.8), (x, -2.65, 5.46), 0.19, 6)
     assert len(mesh) < 4000, len(mesh)
-    # Face the audience and fill GitHub's default STL camera view.
+    # Face the audience in GitHub's native STL viewer.
     return [
         (
             scale((-a[0], -a[1], a[2]), 3),
