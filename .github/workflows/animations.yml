@@ -1,4 +1,4 @@
-name: Generate snake animation
+name: Refresh profile widgets
 
 on:
   schedule: # execute every 12 hours
@@ -10,6 +10,10 @@ on:
     branches:
     - main
 
+concurrency:
+  group: profile-widgets
+  cancel-in-progress: false
+
 jobs:
   generate:
     permissions:
@@ -18,6 +22,16 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Check snapshot fallback
+        run: python3 -B -m unittest discover -s scripts -p test_refresh_widgets.py
+
+      - uses: actions/checkout@v4
+        with:
+          ref: output
+          path: .reference/tmp/previous
+
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -31,6 +45,8 @@ jobs:
         env:
           NODE_OPTIONS: --max-old-space-size=6144
 
+      - name: Refresh Spotify and streak snapshots
+        run: python3 scripts/refresh_widgets.py .reference/tmp/previous dist
 
       - name: push SVG assets to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
