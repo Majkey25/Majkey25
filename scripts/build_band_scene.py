@@ -4,7 +4,6 @@ from collections import Counter
 from math import cos, pi, sin, sqrt
 from pathlib import Path
 import re
-from typing import Literal
 from xml.etree import ElementTree
 
 Vec2 = tuple[float, float]
@@ -165,58 +164,6 @@ def cylinder(
     return mesh
 
 
-def head(center: Vec3, size: Vec3) -> list[Triangle]:
-    golden = (1 + sqrt(5)) / 2
-    vertices = [
-        (-1, golden, 0),
-        (1, golden, 0),
-        (-1, -golden, 0),
-        (1, -golden, 0),
-        (0, -1, golden),
-        (0, 1, golden),
-        (0, -1, -golden),
-        (0, 1, -golden),
-        (golden, 0, -1),
-        (golden, 0, 1),
-        (-golden, 0, -1),
-        (-golden, 0, 1),
-    ]
-    faces = [
-        (0, 11, 5),
-        (0, 5, 1),
-        (0, 1, 7),
-        (0, 7, 10),
-        (0, 10, 11),
-        (1, 5, 9),
-        (5, 11, 4),
-        (11, 10, 2),
-        (10, 7, 6),
-        (7, 1, 8),
-        (3, 9, 4),
-        (3, 4, 2),
-        (3, 2, 6),
-        (3, 6, 8),
-        (3, 8, 9),
-        (4, 9, 5),
-        (2, 4, 11),
-        (6, 2, 10),
-        (8, 6, 7),
-        (9, 8, 1),
-    ]
-    transformed = [
-        add(
-            center,
-            (
-                unit(point)[0] * size[0],
-                unit(point)[1] * size[1],
-                unit(point)[2] * size[2],
-            ),
-        )
-        for point in vertices
-    ]
-    return [(transformed[a], transformed[b], transformed[c]) for a, b, c in faces]
-
-
 def svg_contours(path: Path) -> list[list[Vec2]]:
     root = ElementTree.parse(path).getroot()
     contours: list[list[Vec2]] = []
@@ -322,53 +269,7 @@ def svg_contours(path: Path) -> list[list[Vec2]]:
     return contours
 
 
-def person(
-    x: float, y: float, role: Literal["vocals", "guitar", "bass", "drums"]
-) -> list[Triangle]:
-    drummer = role == "drums"
-    singer = role == "vocals"
-    mesh: list[Triangle] = []
-    hip = 1.05 if drummer else 1.18
-    mesh += box((x, y, hip + 0.47), (0.7, 0.38, 0.85))
-    mesh += cylinder((x, y, hip + 0.9), (x, y, hip + 1.04), 0.13, 4)
-    mesh += head((x, y, hip + 1.28), (0.27, 0.25, 0.34))
-    mesh += head((x, y - 0.045, hip + 1.40), (0.29, 0.25, 0.22))
-    mesh += box((x, y + 0.24, hip + 1.28), (0.10, 0.10, 0.13))
-    for side in (-1, 1):
-        knee = (x + side * 0.34, y + 0.36 if drummer else y + side * 0.10, 0.57)
-        foot = (x + side * 0.48, y + 0.7 if drummer else y + 0.16, 0.14)
-        mesh += cylinder((x + side * 0.2, y, hip), knee, 0.13, 4)
-        mesh += cylinder(knee, foot, 0.105, 4)
-        mesh += box(add(foot, (0, 0.12, -0.07)), (0.23, 0.4, 0.14))
-        shoulder = (x + side * 0.42, y, hip + 0.8)
-        elbow = (x + side * 0.65, y + 0.22, hip + 0.40)
-        hand = (x + side * 0.45, y + 0.58, hip + 0.55)
-        if singer and side == 1:
-            elbow = (x + 0.6, y + 0.15, hip + 1.0)
-            hand = (x + 0.25, y + 0.45, hip + 1.1)
-        elif role in ("guitar", "bass"):
-            neck_side = 1 if role == "bass" else -1
-            if side == neck_side:
-                elbow = (x + side * 0.65, y + 0.25, hip + 0.35)
-                hand = (x + side * 0.68, y + 0.65, hip + 0.92)
-            else:
-                hand = (x + side * 0.14, y + 0.65, hip - 0.04)
-        mesh += cylinder(shoulder, elbow, 0.085, 4)
-        mesh += cylinder(elbow, hand, 0.07, 4)
-        mesh += head(hand, (0.105, 0.1, 0.12))
-        if drummer:
-            mesh += cylinder(hand, (x + side * 0.2, y + 1.35, hip + 0.6), 0.018, 3)
-    if drummer:
-        return [
-            (add(a, (0, 0, 0.24)), add(b, (0, 0, 0.24)), add(c, (0, 0, 0.24)))
-            for a, b, c in mesh
-        ]
-    return mesh
-
-
-def guitar(
-    x: float, y: float, z: float, bass: bool = False, spare: bool = False
-) -> list[Triangle]:
+def guitar(x: float, y: float, z: float, bass: bool = False) -> list[Triangle]:
     outline = [
         (-0.42, -0.38),
         (-0.54, -0.08),
@@ -384,9 +285,9 @@ def guitar(
         (0, -0.52),
     ]
     mesh = prism(outline, 0.12, (x, y, z), (1, 0, 0.1), (0, 0, 1), (0, -1, 0))
-    neck_length = 1.15 if bass else 0.93
-    mesh += box((x, y - 0.06, z + 0.55 + neck_length / 2), (0.12, 0.10, neck_length))
-    mesh += box((x, y - 0.07, z + 0.55 + neck_length + 0.15), (0.24, 0.11, 0.3))
+    neck_length = 1.2 if bass else 1.0
+    mesh += box((x, y - 0.06, z + 0.1 + neck_length / 2), (0.12, 0.10, neck_length))
+    mesh += box((x, y - 0.07, z + 0.1 + neck_length + 0.15), (0.24, 0.11, 0.3))
     mesh += box((x, y - 0.14, z - 0.20), (0.28, 0.08, 0.08))
     for pickup in (-0.02, 0.15):
         mesh += box((x, y - 0.14, z + pickup), (0.30, 0.05, 0.08))
@@ -394,36 +295,81 @@ def guitar(
         offset = (index - (1.5 if bass else 2.5)) * 0.018
         mesh += cylinder(
             (x + offset, y - 0.18, z - 0.25),
-            (x + offset, y - 0.18, z + 0.55 + neck_length + 0.23),
+            (x + offset, y - 0.18, z + 0.1 + neck_length + 0.23),
             0.005,
             3,
         )
     for index in range(5):
         mesh += box(
-            (x, y - 0.125, z + 0.58 + index * neck_length / 5), (0.15, 0.025, 0.015)
+            (x, y - 0.125, z + 0.13 + index * neck_length / 5), (0.15, 0.025, 0.015)
         )
     for side in (-1, 1):
         mesh += cylinder(
-            (x + side * 0.10, y - 0.07, z + 0.62 + neck_length),
-            (x + side * 0.22, y - 0.07, z + 0.62 + neck_length),
+            (x + side * 0.10, y - 0.07, z + 0.17 + neck_length),
+            (x + side * 0.22, y - 0.07, z + 0.17 + neck_length),
             0.045,
             4,
         )
-    if spare:
-        mesh += cylinder((x, y, z - 0.55), (x, y, 0.1), 0.025, 4)
-        for side in (-1, 1):
-            mesh += cylinder((x, y, 0.14), (x + side * 0.35, y + 0.25, 0.05), 0.025, 3)
-    angle = 0 if spare else (0.55 if bass else -0.55)
-
-    def pose(vertex: Vec3) -> Vec3:
-        dx, dy, dz = sub(vertex, (x, y, z))
-        return (
-            x - cos(angle) * dx + sin(angle) * dz,
-            y - dy,
-            z + sin(angle) * dx + cos(angle) * dz,
+    mesh += cylinder((x, y + 0.1, 0.12), (x, y + 0.1, z + 0.5), 0.035, 4)
+    for side in (-1, 1):
+        mesh += cylinder((x, y + 0.1, 0.14), (x + side * 0.35, y - 0.2, 0.05), 0.025, 3)
+        mesh += cylinder(
+            (x, y + 0.1, z - 0.5), (x + side * 0.25, y - 0.15, z - 0.5), 0.025, 3
         )
 
+    def pose(vertex: Vec3) -> Vec3:
+        return 2 * x - vertex[0], 2 * y - vertex[1], vertex[2]
+
     return [(pose(a), pose(b), pose(c)) for a, b, c in mesh]
+
+
+def mesa_badge(center: Vec3) -> list[Triangle]:
+    glyphs: list[list[list[Vec2]]] = [
+        [[(0, 0), (0, 1), (0.3, 0.5), (0.6, 1), (0.6, 0)]],
+        [[(0.6, 1), (0, 1), (0, 0), (0.6, 0)], [(0, 0.5), (0.5, 0.5)]],
+        [[(0.6, 1), (0, 1), (0, 0.5), (0.6, 0.5), (0.6, 0), (0, 0)]],
+        [[(0, 0), (0.3, 1), (0.6, 0)], [(0.15, 0.5), (0.45, 0.5)]],
+    ]
+    mesh: list[Triangle] = []
+    for index, paths in enumerate(glyphs):
+        for points in paths:
+            for a, b in zip(points, points[1:]):
+                start = add(
+                    center, ((index * 0.85 + a[0] - 1.575) * 0.22, 0, a[1] * 0.22)
+                )
+                end = add(
+                    center, ((index * 0.85 + b[0] - 1.575) * 0.22, 0, b[1] * 0.22)
+                )
+                mesh += cylinder(start, end, 0.015, 4)
+    return mesh
+
+
+def amplifiers() -> list[Triangle]:
+    # Mesa Dual Rectifier-style head and 4x12 cabinet.
+    mesh = box((-4.7, -2.05, 0.91), (1.7, 0.85, 1.7))
+    mesh += box((-4.7, -2.05, 2.02), (1.7, 0.75, 0.38))
+    mesh += box((-4.7, -1.66, 2.02), (1.56, 0.04, 0.28))
+    for x in (-5.13, -4.27):
+        for z in (0.49, 1.27):
+            mesh += cylinder((x, -1.61, z), (x, -1.55, z), 0.34, 8, end_radius=0.30)
+    for index in range(9):
+        x = -5.34 + index * 0.13
+        mesh += cylinder((x, -1.62, 1.99), (x, -1.56, 1.99), 0.037, 4)
+    mesh += box((-4.07, -1.60, 2.01), (0.08, 0.07, 0.11))
+    mesh += box((-4.7, -2.05, 2.24), (0.45, 0.14, 0.06))
+    mesh += mesa_badge((-4.7, -1.55, 1.53))
+    # Separate SVT-style bass head and 8x10 cabinet.
+    mesh += box((4.8, -2.05, 1.15), (1.25, 0.9, 2.25))
+    mesh += box((4.8, -2.05, 2.50), (1.3, 0.75, 0.4))
+    for x in (4.5, 5.1):
+        for z in (0.32, 0.86, 1.40, 1.94):
+            mesh += cylinder((x, -1.59, z), (x, -1.54, z), 0.23, 6, end_radius=0.20)
+    for x in (4.3, 4.6, 4.9, 5.2):
+        mesh += cylinder((x, -1.66, 2.47), (x, -1.60, 2.47), 0.055, 6)
+    mesh += box((4.8, -2.05, 2.73), (0.40, 0.14, 0.06))
+    for x in (4.18, 5.42):
+        mesh += box((x, -2.05, 1.45), (0.04, 0.3, 0.16))
+    return mesh
 
 
 def build_scene(logo: Path) -> list[Triangle]:
@@ -443,27 +389,28 @@ def build_scene(logo: Path) -> list[Triangle]:
             (0, 0, -1),
             (0, 1, 0),
         )
-    mesh += person(0, 1.65, "vocals")
-    mesh += person(-3.3, 0.7, "guitar")
-    mesh += person(3.3, 0.7, "bass")
-    mesh += person(0, -2.1, "drums")
-    mesh += guitar(-3.3, 1.25, 1.10)
-    mesh += guitar(3.3, 1.25, 1.10, bass=True)
-    mesh += guitar(-5.7, 0.0, 0.72, spare=True)
-    mesh += cylinder((0.25, 2.10, 2.35), (0, 2.34, 2.43), 0.07, 6)
-    mesh += cylinder((3.8, 1.7, 0), (3.8, 1.7, 2.15), 0.025, 4)
-    mesh += cylinder((3.8, 1.7, 2.15), (3.4, 1.45, 2.4), 0.025, 4)
-    mesh += cylinder((3.4, 1.45, 2.4), (3.2, 1.45, 2.4), 0.055, 6)
+    mesh += guitar(-3.3, 0.8, 0.70)
+    mesh += guitar(3.3, 0.8, 0.70, bass=True)
+    mesh += cylinder((0, 1.7, 0), (0, 1.7, 2.20), 0.035, 4)
+    mesh += cylinder((0, 1.7, 2.20), (0, 2.0, 2.36), 0.028, 4)
+    mesh += cylinder((0, 2.0, 2.36), (0, 2.22, 2.39), 0.055, 6)
+    mesh += cylinder((0, 2.22, 2.39), (0, 2.30, 2.40), 0.08, 8)
     for angle in (0, 2 * pi / 3, 4 * pi / 3):
         mesh += cylinder(
-            (3.8, 1.7, 0.12),
-            (3.8 + 0.35 * cos(angle), 1.7 + 0.35 * sin(angle), 0.03),
-            0.02,
+            (0, 1.7, 0.15),
+            (0.45 * cos(angle), 1.7 + 0.45 * sin(angle), 0.03),
+            0.025,
             3,
         )
     mesh += cylinder((0, -0.7, 0.85), (0, 0.08, 0.85), 0.70, 10)
     mesh += cylinder((0, 0.08, 0.85), (0, 0.11, 0.85), 0.72, 10)
     mesh += box((0.18, 0.46, 0.12), (0.14, 0.38, 0.10))
+    mesh += box((-0.32, 0.46, 0.12), (0.14, 0.38, 0.10))
+    mesh += cylinder((-0.32, 0.30, 0.20), (0.18, 0.30, 0.20), 0.025, 4)
+    for side in (-1, 1):
+        mesh += cylinder(
+            (side * 0.52, -0.45, 0.45), (side * 0.78, -0.12, 0.12), 0.03, 4
+        )
     for x, y, z, radius, height in (
         (-0.52, -0.58, 1.5, 0.31, 0.4),
         (0.52, -0.58, 1.5, 0.31, 0.4),
@@ -477,6 +424,7 @@ def build_scene(logo: Path) -> list[Triangle]:
         mesh += cylinder((x, y, 0.2), (x, y, z), 0.03, 4)
     mesh += cylinder((0, -2.14, 0.2), (0, -2.14, 0.72), 0.04, 4)
     mesh += cylinder((0, -2.14, 0.72), (0, -2.14, 0.84), 0.27, 8)
+    mesh += box((-1.45, -0.42, 0.27), (0.14, 0.35, 0.06))
     for x, y, height, radius in (
         (-1.45, -0.85, 1.65, 0.35),
         (-1.45, -2.0, 2.25, 0.50),
@@ -497,14 +445,17 @@ def build_scene(logo: Path) -> list[Triangle]:
     mesh += cylinder(
         (-1.45, -0.85, 1.53), (-1.45, -0.85, 1.59), 0.35, 10, end_radius=0.08
     )
+    mesh += amplifiers()
     for side in (-1, 1):
-        x = side * 5.2
-        mesh += box((x, -1.8, 0.90), (1.15, 0.75, 1.65))
-        mesh += box((x, -1.8, 1.85), (1.15, 0.70, 0.3))
-        for z in (0.45, 1.14):
-            mesh += cylinder((x, -1.42, z), (x, -1.36, z), 0.35, 8)
         mesh += box((side * 6.5, -0.7, 1.0), (0.85, 0.7, 2.0))
-        mesh += box((side * 2.7, 2.8, 0.3), (1.1, 0.7, 0.6))
+        mesh += prism(
+            [(-0.35, 0), (0.35, 0), (0.35, 0.15), (-0.35, 0.60)],
+            1.1,
+            (side * 2.7 - 0.55, 2.8, 0),
+            (0, 1, 0),
+            (0, 0, 1),
+            (1, 0, 0),
+        )
         mesh += cylinder((side * 7, -3.4, 0), (side * 7, -3.4, 6.35), 0.065, 4)
     mesh += cylinder((-7, -3.4, 6.35), (7, -3.4, 6.35), 0.065, 4)
     mesh += cylinder((-7, -3.4, 5.9), (7, -3.4, 5.9), 0.065, 4)
@@ -512,7 +463,15 @@ def build_scene(logo: Path) -> list[Triangle]:
         mesh += cylinder((x, -3.4, 6.3), (x + 0.3, -3.4, 5.9), 0.025, 3)
         mesh += cylinder((x, -3.0, 5.8), (x, -2.65, 5.46), 0.19, 6)
     assert len(mesh) < 4000, len(mesh)
-    return mesh
+    # Face the audience and fill GitHub's default STL camera view.
+    return [
+        (
+            scale((-a[0], -a[1], a[2]), 3),
+            scale((-b[0], -b[1], b[2]), 3),
+            scale((-c[0], -c[1], c[2]), 3),
+        )
+        for a, b, c in mesh
+    ]
 
 
 def validate(mesh: list[Triangle]) -> None:
