@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="316" viewBox="0 0 960 316" role="img" aria-labelledby="title description">
   <title id="title">Career so far</title>
-  <desc id="description">A shared timeline from 2021 to October 2026. Mechanical Engineering at SPŠ Zlín, 2021–2025. Azure Programming at the Microsoft-supported Student Trainee Center, January 2023–June 2025. AI and full-stack development at OKsystem, June 2025–present. Software Engineering at UTB Zlín, September 2025–May 2030 (expected graduation). AI safety and red teaming, May–September 2026.</desc>
+  <desc id="description">A shared timeline with year markers from 2021 to 2027. Mechanical Engineering at SPŠ Zlín, September 2021–May 2025. Azure Programming at the Microsoft-supported Student Trainee Center, January 2023–June 2025. AI and full-stack development at OKsystem, June 2025–present, shown to the 2027 boundary with a continuation arrow. Software Engineering at UTB Zlín, September 2025–May 2030 (expected graduation), shown to the 2027 boundary with a continuation arrow. AI safety and red teaming, May–October 2026.</desc>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     .background { fill: #ffffff; }
@@ -18,15 +18,16 @@
   </style>
   <rect class="background" width="960" height="316" rx="10"/>
   <g class="grid">
-    <path d="M360 48V292 M459 48V292 M558 48V292 M657 48V292 M756 48V292 M855 48V292"/>
+    <path d="M360 48V292 M455 48V292 M550 48V292 M645 48V292 M740 48V292 M835 48V292 M930 48V292"/>
   </g>
   <g class="year" text-anchor="middle">
     <text x="360" y="31">2021</text>
-    <text x="459" y="31">2022</text>
-    <text x="558" y="31">2023</text>
-    <text x="657" y="31">2024</text>
-    <text x="756" y="31">2025</text>
-    <text x="855" y="31">2026</text>
+    <text x="455" y="31">2022</text>
+    <text x="550" y="31">2023</text>
+    <text x="645" y="31">2024</text>
+    <text x="740" y="31">2025</text>
+    <text x="835" y="31">2026</text>
+    <text x="930" y="31">2027</text>
   </g>
   <g class="track">
     <rect x="360" y="78" width="570" height="16" rx="8"/>
@@ -36,11 +37,11 @@
     <rect x="360" y="270" width="570" height="16" rx="8"/>
   </g>
   <g>
-    <rect x="360" y="78" width="396" height="16" rx="8" fill="#8b949e"/>
-    <rect x="558" y="126" width="247" height="16" rx="8" fill="#7c8fe8"/>
-    <rect x="797" y="174" width="133" height="16" rx="8" fill="#58a6ff"/>
-    <rect x="822" y="222" width="108" height="16" rx="8" fill="#3fb950"/>
-    <rect x="888" y="270" width="42" height="16" rx="8" fill="#d2a8ff"/>
+    <rect x="423.3" y="78" width="356.3" height="16" rx="8" fill="#8b949e"/>
+    <rect x="550" y="126" width="237.5" height="16" rx="8" fill="#7c8fe8"/>
+    <rect x="779.6" y="174" width="150.4" height="16" rx="8" fill="#58a6ff"/>
+    <rect x="803.3" y="222" width="126.7" height="16" rx="8" fill="#3fb950"/>
+    <rect x="866.7" y="270" width="47.5" height="16" rx="8" fill="#d2a8ff"/>
     <path d="m919 178 5 4-5 4 M919 226l5 4-5 4" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
   <g class="label">
@@ -51,10 +52,10 @@
     <text x="22" y="275">AI Safety &amp; Red Teaming</text>
   </g>
   <g class="date">
-    <text x="22" y="104">2021–2025</text>
+    <text x="22" y="104">Sep 2021–May 2025</text>
     <text x="22" y="152">Jan 2023–Jun 2025</text>
     <text x="22" y="200">Jun 2025–present</text>
     <text x="22" y="248">Sep 2025–May 2030 (expected)</text>
-    <text x="22" y="296">May–Sep 2026</text>
+    <text x="22" y="296">May–Oct 2026</text>
   </g>
 </svg>
