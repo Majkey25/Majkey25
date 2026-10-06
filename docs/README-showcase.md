@@ -346,11 +346,9 @@ Inline equation: $F_\beta = (1+\beta^2)\frac{PR}{\beta^2 P+R}$.
 
 Display equation:
 
-$$
-\mathrm{cost\ per\ verified\ task}
-=
-\frac{\mathrm{total\ execution\ cost}}{\mathrm{verified\ completed\ tasks}}
-$$
+~~~math
+\mathrm{cost\ per\ verified\ task} = \frac{\mathrm{total\ execution\ cost}}{\mathrm{verified\ completed\ tasks}}
+~~~
 
 These are equations, not claimed measurements. [GitHub math rendering](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions) accepts LaTeX-style expressions.
 
