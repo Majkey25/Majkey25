@@ -1,6 +1,6 @@
 <!-- Typing paths adapted from https://github.com/DenverCoder1/readme-typing-svg/ -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="800" height="60" viewBox="0 0 800 60" role="img" aria-labelledby="title">
+     width="800" height="32" viewBox="0 14 800 32" role="img" aria-labelledby="title">
   <title id="title">AI applications, backend services, retrieval evaluation, and full-stack development</title>
   <style>
     text { font: 600 24px monospace; dominant-baseline: middle; text-anchor: middle; }

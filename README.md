@@ -38,9 +38,9 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 </tr>
 </table>
 
-<p align="center">
+<div align="center">
   <img src="assets/typing.svg" width="800" alt="LLM applications and agent workflows; Python backends and APIs; retrieval and evaluation; React, TypeScript, Kotlin, and Android" />
-</p>
+</div>
 
 ## Practical AI work at OKsystem
 
