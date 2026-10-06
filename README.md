@@ -85,11 +85,18 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 ## Career so far
 
 ~~~mermaid
-flowchart LR
-    A["2021-2025<br/>Mechanical engineering studies<br/>SPŠ Zlín"] --> B["Jan 2023-Jun 2025<br/>Azure Programming<br/>Microsoft-supported<br/>Student Trainee Center"]
-    B --> C["2025-present<br/>AI / full-stack since Jun 2025<br/>Software Engineering studies<br/>UTB Zlín"]
-    C --> D["May-Sep 2026<br/>AI safety and<br/>red-team evaluations"]
+gantt
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
+    todayMarker off
+    Mechanical studies (SPŠ Zlín) :done, school, 2021-01-01, 2025-01-01
+    Azure Programming (STC) :done, azure, 2023-01-01, 2025-07-01
+    AI / full-stack development :active, work, 2025-06-01, 2026-10-06
+    Software Engineering (UTB) :active, university, 2025-01-01, 2026-10-06
+    AI safety evaluations :done, safety, 2026-05-01, 2026-10-01
 ~~~
+
+<sub>As of October 2026. Study dates are shown by year; work dates by month.</sub>
 
 ---
 
