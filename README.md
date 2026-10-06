@@ -84,9 +84,9 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 
 ## Career so far
 
-![Career timeline: SPŠ Zlín Mechanical Engineering, 2021–2025; Azure Programming at STC, Jan 2023–Jun 2025; AI and full-stack development at OKsystem, Jun 2025–present; Software Engineering at UTB Zlín, Sep 2025–May 2030 (expected); AI safety and red teaming, May–Sep 2026.](assets/career-timeline.svg)
+![Career timeline through 2027, with provisional future periods: SPŠ Zlín Mechanical Engineering, 2021–2025; Azure Programming at STC, Jan 2023–Jun 2025; AI and full-stack development at OKsystem, Jun 2025–present; Software Engineering at UTB Zlín, Sep 2025–May 2030 (expected); AI safety and red teaming, May 2026–2027 (provisional).](assets/career-timeline.svg)
 
-<sub>As of October 2026. SPŠ dates are shown by year; other dates by month.</sub>
+<sub>Timeline shown through 2027. Future periods are provisional.</sub>
 
 ---
 

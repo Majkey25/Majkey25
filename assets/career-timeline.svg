@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="316" viewBox="0 0 960 316" role="img" aria-labelledby="title description">
   <title id="title">Career so far</title>
-  <desc id="description">A shared timeline from 2021 to October 2026. Mechanical Engineering at SPŠ Zlín, 2021–2025. Azure Programming at the Microsoft-supported Student Trainee Center, January 2023–June 2025. AI and full-stack development at OKsystem, June 2025–present. Software Engineering at UTB Zlín, September 2025–May 2030 (expected graduation). AI safety and red teaming, May–September 2026.</desc>
+  <desc id="description">A shared timeline from 2021 through 2027, with future periods shown provisionally. Mechanical Engineering at SPŠ Zlín, 2021–2025. Azure Programming at the Microsoft-supported Student Trainee Center, January 2023–June 2025. AI and full-stack development at OKsystem, June 2025–present, shown through 2027. Software Engineering at UTB Zlín, September 2025–May 2030 (expected graduation), clipped to the 2027 chart horizon. AI safety and red teaming, May 2026–2027 (provisional).</desc>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     .background { fill: #ffffff; }
@@ -18,15 +18,16 @@
   </style>
   <rect class="background" width="960" height="316" rx="10"/>
   <g class="grid">
-    <path d="M360 48V292 M459 48V292 M558 48V292 M657 48V292 M756 48V292 M855 48V292"/>
+    <path d="M360 48V292 M441.4 48V292 M522.9 48V292 M604.3 48V292 M685.7 48V292 M767.1 48V292 M848.6 48V292"/>
   </g>
   <g class="year" text-anchor="middle">
     <text x="360" y="31">2021</text>
-    <text x="459" y="31">2022</text>
-    <text x="558" y="31">2023</text>
-    <text x="657" y="31">2024</text>
-    <text x="756" y="31">2025</text>
-    <text x="855" y="31">2026</text>
+    <text x="441.4" y="31">2022</text>
+    <text x="522.9" y="31">2023</text>
+    <text x="604.3" y="31">2024</text>
+    <text x="685.7" y="31">2025</text>
+    <text x="767.1" y="31">2026</text>
+    <text x="848.6" y="31">2027</text>
   </g>
   <g class="track">
     <rect x="360" y="78" width="570" height="16" rx="8"/>
@@ -36,12 +37,12 @@
     <rect x="360" y="270" width="570" height="16" rx="8"/>
   </g>
   <g>
-    <rect x="360" y="78" width="396" height="16" rx="8" fill="#8b949e"/>
-    <rect x="558" y="126" width="247" height="16" rx="8" fill="#7c8fe8"/>
-    <rect x="797" y="174" width="133" height="16" rx="8" fill="#58a6ff"/>
-    <rect x="822" y="222" width="108" height="16" rx="8" fill="#3fb950"/>
-    <rect x="888" y="270" width="42" height="16" rx="8" fill="#d2a8ff"/>
-    <path d="m919 178 5 4-5 4 M919 226l5 4-5 4" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="360" y="78" width="325.7" height="16" rx="8" fill="#8b949e"/>
+    <rect x="522.9" y="126" width="203.5" height="16" rx="8" fill="#7c8fe8"/>
+    <rect x="719.6" y="174" width="210.4" height="16" rx="8" fill="#58a6ff"/>
+    <rect x="740" y="222" width="190" height="16" rx="8" fill="#3fb950"/>
+    <rect x="794.3" y="270" width="135.7" height="16" rx="8" fill="#d2a8ff"/>
+    <path d="m919 178 5 4-5 4 M919 226l5 4-5 4 M919 274l5 4-5 4" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
   <g class="label">
     <text x="22" y="83">Mechanical Engineering · SPŠ Zlín</text>
@@ -55,6 +56,6 @@
     <text x="22" y="152">Jan 2023–Jun 2025</text>
     <text x="22" y="200">Jun 2025–present</text>
     <text x="22" y="248">Sep 2025–May 2030 (expected)</text>
-    <text x="22" y="296">May–Sep 2026</text>
+    <text x="22" y="296">May 2026–2027 (provisional)</text>
   </g>
 </svg>
