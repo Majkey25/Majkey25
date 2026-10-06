@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="316" viewBox="0 0 960 316" role="img" aria-labelledby="title description">
   <title id="title">Career so far</title>
-  <desc id="description">A shared timeline from 2021 to October 2026. Mechanical Engineering at SPŠ Zlín, 2021–2025. Azure Programming at the Microsoft-supported Student Trainee Center, January 2023–June 2025. AI and full-stack development at OKsystem, June 2025–present. Software Engineering at UTB Zlín, 2025–present. AI safety and red teaming, May–September 2026.</desc>
+  <desc id="description">A shared timeline from 2021 to October 2026. Mechanical Engineering at SPŠ Zlín, 2021–2025. Azure Programming at the Microsoft-supported Student Trainee Center, January 2023–June 2025. AI and full-stack development at OKsystem, June 2025–present. Software Engineering at UTB Zlín, September 2025–May 2030 (expected graduation). AI safety and red teaming, May–September 2026.</desc>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
     .background { fill: #ffffff; }
@@ -39,7 +39,7 @@
     <rect x="360" y="78" width="396" height="16" rx="8" fill="#8b949e"/>
     <rect x="558" y="126" width="247" height="16" rx="8" fill="#7c8fe8"/>
     <rect x="797" y="174" width="133" height="16" rx="8" fill="#58a6ff"/>
-    <rect x="756" y="222" width="174" height="16" rx="8" fill="#3fb950"/>
+    <rect x="822" y="222" width="108" height="16" rx="8" fill="#3fb950"/>
     <rect x="888" y="270" width="42" height="16" rx="8" fill="#d2a8ff"/>
     <path d="m919 178 5 4-5 4 M919 226l5 4-5 4" fill="none" stroke="#0d1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
@@ -54,7 +54,7 @@
     <text x="22" y="104">2021–2025</text>
     <text x="22" y="152">Jan 2023–Jun 2025</text>
     <text x="22" y="200">Jun 2025–present</text>
-    <text x="22" y="248">2025–present</text>
+    <text x="22" y="248">Sep 2025–May 2030 (expected)</text>
     <text x="22" y="296">May–Sep 2026</text>
   </g>
 </svg>
