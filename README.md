@@ -91,6 +91,7 @@ config:
     fontSize: 18
     barHeight: 28
     barGap: 8
+    rightPadding: 190
 ---
 gantt
     dateFormat YYYY-MM-DD
