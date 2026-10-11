@@ -88,6 +88,10 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 
 ---
 
+## Outside software
+
+I play drums, guitar, bass, and saxophone, and I sing. I currently play with **[WETHEGODS](https://www.facebook.com/wethegodsband/)**, previously with **[Exhalace](https://exhalace.cz)**, and collect vinyl records.
+
 ## GitHub activity
 
 <picture>
