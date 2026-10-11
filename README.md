@@ -98,8 +98,27 @@ I play drums, guitar, bass, and saxophone, and I sing. I currently play with **[
   <img src="https://raw.githubusercontent.com/Majkey25/Majkey25/output/spotify.svg" width="300" alt="Recently played Spotify tracks" />
 </a>
 
+### WETHEGODS in 3D
+
+[![WETHEGODS stage rendered in 3D with red lacquer instruments, bronze cymbals, brushed metal, worn oak boards, and warm amber and blue lighting](assets/wethegods-stage-hero.png)](assets/wethegods-stage-detailed.stl)
+
+[Rotate and zoom the detailed stage](assets/wethegods-stage-detailed.stl) · [Blender scene with materials](assets/wethegods-stage.blend)
+
 <details>
-<summary><b>Explore 3D</b></summary>
+<summary><b>Close-ups: strings, drum hardware, and amplifier wear</b></summary>
+
+![Drum kit close-up with individual tension rods, chrome hoops, cymbal lathe grooves, and drumstick marks](assets/wethegods-stage-drums.png)
+
+![Guitar close-up with individual strings, 22 frets, pearl inlays, bridge saddles, pickup poles, and lacquer scratches](assets/wethegods-stage-guitar.png)
+
+![Amplifier close-up with woven grille wires, speaker surrounds, control labels, dial indicators, corner screws, and road scuffs](assets/wethegods-stage-amplifier.png)
+
+The images are renders of the downloadable scene. GitHub's STL viewer shows geometry; the Blender scene preserves colors, procedural surface textures, and lighting.
+
+</details>
+
+<details>
+<summary><b>Quick 3D preview</b></summary>
 
 ~~~stl
 solid wethegods_stage
