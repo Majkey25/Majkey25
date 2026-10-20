@@ -28,7 +28,10 @@ class SpotifyRefreshTest(unittest.TestCase):
             with patch("refresh_spotify.urlopen", side_effect=URLError("offline")):
                 with self.assertRaisesRegex(RuntimeError, "No valid Spotify snapshot"):
                     refresh_spotify(previous, Path(directory) / "empty")
-                refresh_spotify(Path(directory) / "missing", output)
+                with patch.object(
+                    Path, "write_bytes", side_effect=PermissionError("read-only")
+                ):
+                    refresh_spotify(Path(directory) / "missing", output)
             self.assertEqual((output / "spotify.svg").read_bytes(), fresh)
 
     def test_refresh_and_outage_fallback(self) -> None:

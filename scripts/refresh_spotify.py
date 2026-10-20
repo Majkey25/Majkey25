@@ -36,11 +36,13 @@ def refresh_spotify(previous: Path, output: Path) -> None:
         validate_card(content)
     except (OSError, HTTPException, ValueError, ElementTree.ParseError) as error:
         try:
-            content = (backup if backup.is_file() else destination).read_bytes()
+            snapshot = backup if backup.is_file() else destination
+            content = snapshot.read_bytes()
             validate_card(content)
         except (OSError, ValueError, ElementTree.ParseError) as backup_error:
             raise RuntimeError("No valid Spotify snapshot") from backup_error
-        destination.write_bytes(content)
+        if snapshot != destination:
+            destination.write_bytes(content)
         print(f"::warning::Spotify: {type(error).__name__}; keeping previous snapshot")
         return
     destination.write_bytes(content)
