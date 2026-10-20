@@ -1,6 +1,5 @@
 """Refresh the Spotify card while retaining a valid snapshot during outages."""
 
-import shutil
 import sys
 from http.client import HTTPException
 from pathlib import Path
@@ -26,9 +25,6 @@ def refresh_spotify(previous: Path, output: Path) -> None:
     output.mkdir(parents=True, exist_ok=True)
     destination = output / "spotify.svg"
     backup = previous / "spotify.svg"
-    if backup.is_file():
-        validate_card(backup.read_bytes())
-        shutil.copyfile(backup, destination)
     try:
         request = Request(
             SPOTIFY_URL, headers={"User-Agent": "Majkey25-profile-widgets"}
@@ -39,8 +35,12 @@ def refresh_spotify(previous: Path, output: Path) -> None:
             raise ValueError("Response exceeds 2 MB")
         validate_card(content)
     except (OSError, HTTPException, ValueError, ElementTree.ParseError) as error:
-        if not destination.is_file():
-            raise RuntimeError("No valid Spotify snapshot") from error
+        try:
+            content = (backup if backup.is_file() else destination).read_bytes()
+            validate_card(content)
+        except (OSError, ValueError, ElementTree.ParseError) as backup_error:
+            raise RuntimeError("No valid Spotify snapshot") from backup_error
+        destination.write_bytes(content)
         print(f"::warning::Spotify: {type(error).__name__}; keeping previous snapshot")
         return
     destination.write_bytes(content)

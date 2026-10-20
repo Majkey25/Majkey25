@@ -12,6 +12,25 @@ from refresh_spotify import refresh_spotify
 
 
 class SpotifyRefreshTest(unittest.TestCase):
+    def test_corrupt_snapshot_does_not_block_refresh(self) -> None:
+        fresh = (
+            b'<svg xmlns="http://www.w3.org/2000/svg" '
+            b'aria-label="Last played on Spotify: example"><text>new</text></svg>'
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            previous = Path(directory) / "previous"
+            previous.mkdir()
+            (previous / "spotify.svg").write_bytes(b"<svg")
+            output = Path(directory) / "output"
+            with patch("refresh_spotify.urlopen", return_value=io.BytesIO(fresh)):
+                refresh_spotify(previous, output)
+            self.assertEqual((output / "spotify.svg").read_bytes(), fresh)
+            with patch("refresh_spotify.urlopen", side_effect=URLError("offline")):
+                with self.assertRaisesRegex(RuntimeError, "No valid Spotify snapshot"):
+                    refresh_spotify(previous, Path(directory) / "empty")
+                refresh_spotify(Path(directory) / "missing", output)
+            self.assertEqual((output / "spotify.svg").read_bytes(), fresh)
+
     def test_refresh_and_outage_fallback(self) -> None:
         card = (
             b'<svg xmlns="http://www.w3.org/2000/svg" '
