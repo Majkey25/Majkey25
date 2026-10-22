@@ -1,7 +1,7 @@
 """Refresh the Spotify card while retaining a valid snapshot during outages."""
 
+import subprocess
 import sys
-from http.client import HTTPException
 from pathlib import Path
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
@@ -11,6 +11,17 @@ SPOTIFY_URL = (
     "?user=an3l6poe03o6g6htrdrs0hgjy&count=4&unique=1&width=300"
     "&time=0&now_playing=0&profile=off"
 )
+FETCH_TIMEOUT_SECONDS = 30
+
+
+def fetch_card() -> bytes:
+    # A socket timeout alone allows an endless trickle of response bytes.
+    return subprocess.run(
+        [sys.executable, __file__, "--fetch", SPOTIFY_URL],
+        capture_output=True,
+        check=True,
+        timeout=FETCH_TIMEOUT_SECONDS,
+    ).stdout
 
 
 def validate_card(content: bytes) -> None:
@@ -26,15 +37,16 @@ def refresh_spotify(previous: Path, output: Path) -> None:
     destination = output / "spotify.svg"
     backup = previous / "spotify.svg"
     try:
-        request = Request(
-            SPOTIFY_URL, headers={"User-Agent": "Majkey25-profile-widgets"}
-        )
-        with urlopen(request, timeout=30) as response:
-            content = response.read(2_000_001)
+        content = fetch_card()
         if len(content) > 2_000_000:
             raise ValueError("Response exceeds 2 MB")
         validate_card(content)
-    except (OSError, HTTPException, ValueError, ElementTree.ParseError) as error:
+    except (
+        OSError,
+        subprocess.SubprocessError,
+        ValueError,
+        ElementTree.ParseError,
+    ) as error:
         try:
             snapshot = backup if backup.is_file() else destination
             content = snapshot.read_bytes()
@@ -50,4 +62,11 @@ def refresh_spotify(previous: Path, output: Path) -> None:
 
 
 if __name__ == "__main__":
-    refresh_spotify(Path(sys.argv[1]), Path(sys.argv[2]))
+    if len(sys.argv) == 3 and sys.argv[1] == "--fetch":
+        request = Request(
+            sys.argv[2], headers={"User-Agent": "Majkey25-profile-widgets"}
+        )
+        with urlopen(request, timeout=FETCH_TIMEOUT_SECONDS) as response:
+            sys.stdout.buffer.write(response.read(2_000_001))
+    else:
+        refresh_spotify(Path(sys.argv[1]), Path(sys.argv[2]))
