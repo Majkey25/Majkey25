@@ -1028,6 +1028,11 @@ def main() -> None:
     cast(ViewTransform, scene.view_settings).view_transform = "AgX"
     scene.render.image_settings.file_format = "PNG"
     scene.render.image_settings.color_mode = "RGB"
+    scene.render.use_stamp_filename = False
+    scene.render.use_stamp_hostname = False
+    scene.render.use_stamp_date = False
+    scene.render.use_stamp_time = False
+    scene.render.use_stamp_render_time = False
     scene.render.resolution_percentage = 100
     if not args.preview:
         count = export_stl(output / "wethegods-stage-detailed.stl")

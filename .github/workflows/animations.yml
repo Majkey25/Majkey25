@@ -14,26 +14,30 @@ concurrency:
   group: profile-widgets
   cancel-in-progress: false
 
+permissions:
+  contents: read
+
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
 
       - name: Check Spotify outage fallback
         run: python3 -B -m unittest discover -s scripts -p test_refresh_spotify.py
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: output
           path: .reference/tmp/previous
+          persist-credentials: false
 
       - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@2.3.0
+        uses: abozanona/pacman-contribution-graph@15e2d8e093cc9c76cb88ffc850328528cb90ecfd # 2.3.0
         with:
           github_user_name: ${{ github.repository_owner }}
         env:
@@ -42,8 +46,25 @@ jobs:
       - name: Refresh Spotify snapshot
         run: python3 scripts/refresh_spotify.py .reference/tmp/previous dist
 
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-widgets
+          path: dist/*.svg
+          if-no-files-found: error
+
+  publish:
+    needs: generate
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: profile-widgets
+          path: dist
       - name: push SVG assets to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
         with:
           target_branch: output
           build_dir: dist
