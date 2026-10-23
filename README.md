@@ -91,7 +91,7 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 ## Outside software
 
 > [!NOTE]
-> I play drums, guitar, bass, and saxophone, and I sing. I currently play with **[WETHEGODS](https://www.facebook.com/wethegodsband/)**, previously with **[Exhalace](https://exhalace.cz)**, and collect vinyl records.
+> I play drums, guitar, bass, and saxophone, and I sing. I currently play with **[WETHEGODS](https://majkey25.github.io/WeTheGods/)**, previously with **[Exhalace](https://exhalace.cz)**, and collect vinyl records.
 
 [WETHEGODS on Spotify](https://open.spotify.com/artist/0t37G5AusfBBeHTv85jxj9)
 
