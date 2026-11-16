@@ -21,7 +21,7 @@
 
 I'm a **Full-Stack AI/ML Engineer & Backend Developer**. I build LLM applications, Python services, automation, and interfaces that connect them into usable products.
 
-At **[OKsystem a.s.](https://www.oksystem.com/en)**, I develop and evaluate AI chatbots and RAG pipelines. My work spans retrieval, context and prompt design, model integration, REST APIs, databases, and frontend implementation.
+At <img src="https://www.oksystem.com/favicon-32x32.png" width="22" height="22" alt="OKsystem logo" /> **[OKsystem a.s.](https://www.oksystem.com/en)**, I develop and evaluate AI chatbots and RAG pipelines. My work spans retrieval, context and prompt design, model integration, REST APIs, databases, and frontend implementation.
 
 Outside work, I build **developer tools, Android applications, and websites**. My projects cover project and release tracking, prompt and agent instructions, document scanning, offline music tools, weather data, and the WeTheGods website.
 
@@ -29,7 +29,7 @@ In my own projects, I research and prototype AI tools, testing their practical f
 
 I'm **eager to learn new things**, deepen my understanding of AI/ML, and test new tools through practical projects. I like comparing approaches and understanding why they succeed or fail.
 
-Alongside development, I study **Software Engineering at Tomas Bata University in Zlín**, combining the degree with professional work and independent projects.
+Alongside development, I study **Software Engineering at <img src="https://www.utb.cz/wp-content/uploads/2018/04/cropped-UTB_ico-1-32x32.png" width="22" height="22" alt="UTB logo" /> [Tomas Bata University in Zlín](https://www.utb.cz/en/)**, combining the degree with professional work and independent projects.
 
 </td>
 <td width="40%" align="center">
@@ -84,7 +84,9 @@ Alongside development, I study **Software Engineering at Tomas Bata University i
 
 ## Career so far
 
-![Career timeline through 2027: SPŠ Zlín Mechanical Engineering, Sep 2021–May 2025; Azure Programming at STC, Nov 2022–Feb 2025; AI and full-stack development at OKsystem, Jun 2025–present; Software Engineering at UTB Zlín, Sep 2025–May 2030 (expected); AI safety and red teaming, May–Oct 2026. OKsystem and UTB bars reach 2027 with arrows showing continuation.](assets/career-timeline.svg)
+I studied Azure Programming at **[Student Trainee Center (STC)](https://studentstc.cz/en)**, a program supported by <img src="https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png" width="22" height="22" alt="Microsoft logo" /> **Microsoft**.
+
+![Career timeline through 2027: SPŠ Zlín Mechanical Engineering, Sep 2021–May 2025; Azure Programming at the Microsoft-supported Student Trainee Center (STC), Nov 2022–Feb 2025; AI and full-stack development at OKsystem, Jun 2025–present; Software Engineering at UTB Zlín, Sep 2025–May 2030 (expected); AI safety and red teaming, May–Oct 2026. OKsystem and UTB bars reach 2027 with arrows showing continuation.](assets/career-timeline.svg)
 
 ---
 
